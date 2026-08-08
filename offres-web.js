@@ -2,7 +2,7 @@
 // Fichier volontairement allégé : uniquement des faits publics (titre, client, pays,
 // type, tier, lien, échéance). Aucune analyse stratégique interne DC n'est publiée ici.
 const OFFRES_WEB_META = {
-  derniereMiseAJour: '2026-08-06',
+  derniereMiseAJour: '2026-08-08',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -90,5 +90,17 @@ const OFFRES_WEB = [
     source: 'SenOffre',
     lien: 'https://senoffre.com',
     deadline: ''
+  },
+  {
+    id: 'bceao_voirie_lome_2026',
+    titre: "Travaux de réhabilitation (aménagement, assainissement, bitumage) de la voirie intérieure de l'Agence Principale de la BCEAO à Lomé",
+    client: 'BCEAO',
+    type: 'AO',
+    secteur: 'VRD / génie civil',
+    pays: 'Togo (Lomé)',
+    tier: 'A',
+    source: 'BCEAO — portail marchés',
+    lien: 'https://www.bceao.int/fr/appels-offres/travaux-de-rehabilitation-de-la-voirie-interieure-de-lagence-principale-de-la-bceao',
+    deadline: '2026-09-11'
   }
 ];
