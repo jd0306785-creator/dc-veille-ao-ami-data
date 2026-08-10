@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-09',
+  derniereMiseAJour: '2026-08-10',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -36,5 +36,45 @@ const SIGNAUX = [
     dateAnnonce: '2026-06-27',
     resume: "Lors de son conseil d'administration de juin 2026 tenu à Lomé, la BOAD a approuvé onze nouvelles opérations de financement pour un montant total de 344,577 milliards FCFA au profit des pays membres de l'UEMOA.",
     lien: 'https://www.financialafrik.com/2026/06/27/boad-3446-milliards-fcfa-de-nouveaux-financements-pour-accelerer-la-transformation-de-luemoa/'
+  },
+  {
+    id: 'sig_bm_senegal_220md_routes_rurales',
+    titre: "Sénégal : la Banque mondiale débloque 220,71 milliards FCFA pour trois projets incluant la réhabilitation de routes rurales",
+    bailleurOuSource: 'Banque mondiale',
+    pays: 'Sénégal',
+    secteur: 'Infrastructures routières rurales / VRD',
+    dateAnnonce: '2026-08-05',
+    resume: "Le Sénégal et la Banque mondiale ont signé trois accords de financement totalisant 220,71 milliards FCFA, incluant un volet de réhabilitation de routes rurales et de modernisation de systèmes d'irrigation en Casamance et dans l'est du pays, ainsi qu'un volet de connectivité des zones de production agricole au nord et au centre.",
+    lien: 'https://aps.sn/le-senegal-beneficie-de-trois-nouveaux-financements-de-la-banque-mondiale-dun-montant-global-de-22071-milliards-de-francs-cfa/'
+  },
+  {
+    id: 'sig_boad_ci_wassoulou_barrages',
+    titre: "Côte d'Ivoire : la BOAD accorde 29,7 milliards FCFA pour le projet Wassoulou (barrages et irrigation)",
+    bailleurOuSource: 'BOAD',
+    pays: "Côte d'Ivoire",
+    secteur: 'Génie civil / hydraulique',
+    dateAnnonce: '2026-08-05',
+    resume: "Le Conseil des ministres ivoirien a ratifié un prêt BOAD de 29,7 milliards FCFA pour la consolidation du projet Wassoulou, comprenant la construction de deux barrages et l'aménagement de 800 hectares de terres irriguées.",
+    lien: 'https://www.presidence.ci/communiques-ministres/communique-du-conseil-des-ministres-du-mercredi-05-aout-2026/'
+  },
+  {
+    id: 'sig_boad_ci_logements_bouake',
+    titre: "Côte d'Ivoire : 42 milliards FCFA de la BOAD pour 840 logements sociaux à Bouaké",
+    bailleurOuSource: 'BOAD',
+    pays: "Côte d'Ivoire",
+    secteur: 'Bâtiment / logement social',
+    dateAnnonce: '2026-08-05',
+    resume: "Le Conseil des ministres ivoirien a ratifié un prêt BOAD de 42 milliards FCFA pour la construction de 840 logements sociaux à Bouaké, dans le cadre d'un programme plus large de 4 300 logements répartis entre Abidjan, Yamoussoukro et Bouaké.",
+    lien: 'https://www.presidence.ci/communiques-ministres/communique-du-conseil-des-ministres-du-mercredi-05-aout-2026/'
+  },
+  {
+    id: 'sig_afd_ue_ter_extension_thies',
+    titre: "Sénégal : l'AFD et l'Union européenne mobilisent 10 M€ pour les études de l'extension du TER vers Thiès",
+    bailleurOuSource: 'AFD / Union européenne',
+    pays: 'Sénégal',
+    secteur: 'Infrastructure ferroviaire',
+    dateAnnonce: '2026-07-24',
+    resume: "L'État du Sénégal, l'AFD et l'Union européenne ont signé un mémorandum d'entente mobilisant 10 millions d'euros pour financer les études de faisabilité de la 3e phase du TER (extension Dakar–Thiès), signal amont avant un futur marché de construction ferroviaire.",
+    lien: 'https://lesoleil.sn/actualites/economie/extension-du-ter-a-thies-letat-lafd-et-lunion-europeenne-signent-un-memorandum-dentente/'
   }
 ];
