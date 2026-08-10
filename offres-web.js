@@ -9,15 +9,17 @@ const OFFRES_WEB_META = {
 const OFFRES_WEB = [
   {
     id: 'web_bceao_dakar_revetement_murs',
-    titre: "Fourniture et pose de revêtement sur les murs des bureaux de la Direction — Agence Principale BCEAO",
+    titre: "Fourniture et pose de revêtement sur les murs des bureaux de la Direction — Agence Principale BCEAO (AC/K00/APD/010/2026)",
     client: 'BCEAO',
     type: 'AO',
     secteur: 'Bâtiment / finitions',
     pays: 'Sénégal (Dakar)',
     tier: 'A',
+    quickWin: true,
+    quickWinNote: 'Lot unique ~478 m², avance de démarrage 30%, pas de garantie de soumission, exécution max 6 mois',
     source: 'BCEAO — portail marchés',
     lien: 'https://www.bceao.int/fr/appels-offres/appel-concurrence-pour-la-fourniture-et-la-pose-de-revetement-sur-les-murs-des',
-    deadline: ''
+    deadline: '2026-08-14'
   },
   {
     id: 'web_bceao_baguida_togo_enrochement',
