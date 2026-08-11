@@ -2,11 +2,31 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-10',
+  derniereMiseAJour: '2026-08-11',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
 const SIGNAUX = [
+  {
+    id: 'sig_senegal_sandiara_zes_agropole_autoroute',
+    titre: "Sénégal : trois projets structurants annoncés pour la zone industrielle de Sandiara et Mbour (ZES, agropole, bretelle autoroutière à péage)",
+    bailleurOuSource: "Gouvernement du Sénégal (Ministère de l'Industrie et du Commerce)",
+    pays: 'Sénégal',
+    secteur: 'BTP / VRD — zone économique spéciale, agropole, infrastructure routière',
+    dateAnnonce: '2026-08-10',
+    resume: "Le ministre de l'Industrie et du Commerce a annoncé trois projets pour Sandiara (Mbour) : clôture de la zone industrielle sous 1 an (7 milliards FCFA, voirie/réseaux/assainissement), un agropole intercommunal (20 milliards FCFA dans une enveloppe nationale de 350 milliards FCFA pour 45 agropoles), et une sortie d'autoroute à péage vers Sandiara avec extension vers Mbour, travaux prévus dès 2027.",
+    lien: 'https://aps.sn/sandiara-trois-projets-majeurs-annonces-pour-la-zone-industrielle-et-le-departement-de-mbour/'
+  },
+  {
+    id: 'sig_gambie_connect_gambia_infrastructure',
+    titre: "Gambie : lancement du programme routier « Connect Gambia Infrastructure » (360 km, North Bank)",
+    bailleurOuSource: 'État gambien (financement public)',
+    pays: 'Gambie',
+    secteur: 'BTP — infrastructures routières',
+    dateAnnonce: '2026-08-10',
+    resume: "Le président Adama Barrow a lancé un chantier de construction/réhabilitation routière de plus de 360 km dans la région de North Bank, pour environ 9 milliards de dalasis (~121 M USD), dans le cadre du programme national « Connect Gambia Infrastructure » visant à terme 1 500 km de routes à l'échelle du pays.",
+    lien: 'https://www.financialafrik.com/2026/08/10/gambie-le-president-barrow-lance-un-chantier-routier-de-360-km-finance-a-hauteur-de-121-millions-de-dollars/'
+  },
   {
     id: 'sig_bad_strategie_senegal_2026_2031',
     titre: "Nouvelle stratégie pays 2026-2031 de la BAD au Sénégal : le financement privé érigé en levier central des projets de transport",
