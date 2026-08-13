@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-11',
+  derniereMiseAJour: '2026-08-13',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -96,5 +96,25 @@ const SIGNAUX = [
     dateAnnonce: '2026-07-24',
     resume: "L'État du Sénégal, l'AFD et l'Union européenne ont signé un mémorandum d'entente mobilisant 10 millions d'euros pour financer les études de faisabilité de la 3e phase du TER (extension Dakar–Thiès), signal amont avant un futur marché de construction ferroviaire.",
     lien: 'https://lesoleil.sn/actualites/economie/extension-du-ter-a-thies-letat-lafd-et-lunion-europeenne-signent-un-memorandum-dentente/'
+  },
+  {
+    id: 'sig_boad_92e_session_aout_2026',
+    titre: "BOAD : 185,56 milliards FCFA approuvés lors de la 92e session du Conseil d'administration, dont 119 milliards pour 7 projets routiers",
+    bailleurOuSource: 'BOAD',
+    pays: 'Zone UEMOA (dont Sénégal, Côte d’Ivoire, Bénin, Togo)',
+    secteur: 'Infrastructures routières / multisectorielles',
+    dateAnnonce: '2026-08-07',
+    resume: "Réunie à Lomé, la 92e session du Conseil d'administration de la BOAD a approuvé 13 nouveaux projets de financement pour un montant total de 185,56 milliards FCFA. Le secteur routier en est le principal bénéficiaire avec 119 milliards FCFA alloués à 7 projets dans la zone UEMOA.",
+    lien: 'https://www.agenceecofin.com/banque/2703-18708-boad-13-projets-approuves-pour-pres-de-186-milliards-de-fcfa'
+  },
+  {
+    id: 'sig_senegal_joj_dakar_2026_village_olympique',
+    titre: "Sénégal : le Premier ministre fixe des échéances strictes pour livrer le Village olympique et le Centre équestre de Diamniadio avant les JOJ Dakar 2026",
+    bailleurOuSource: 'Gouvernement du Sénégal (Primature)',
+    pays: 'Sénégal',
+    secteur: 'Bâtiment — travaux de finition / second-œuvre',
+    dateAnnonce: '2026-08-11',
+    resume: "Lors d'un conseil interministériel d'évaluation des préparatifs des JOJ Dakar 2026, le Premier ministre a fixé des échéances strictes pour finaliser le Village olympique (livraison au COJOJ avant le 31 août) et le Centre équestre de Diamniadio, signe d'une pression pour des travaux de finition urgents à très court terme pouvant ouvrir des besoins de sous-traitance BTP locale.",
+    lien: 'https://primature.sn/publications/actualites/conseil-interministeriel-devaluation-des-preparatifs-des-joj-dakar-2026'
   }
 ];
