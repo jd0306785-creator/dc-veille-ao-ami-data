@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-13',
+  derniereMiseAJour: '2026-08-14',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -116,5 +116,25 @@ const SIGNAUX = [
     dateAnnonce: '2026-08-11',
     resume: "Lors d'un conseil interministériel d'évaluation des préparatifs des JOJ Dakar 2026, le Premier ministre a fixé des échéances strictes pour finaliser le Village olympique (livraison au COJOJ avant le 31 août) et le Centre équestre de Diamniadio, signe d'une pression pour des travaux de finition urgents à très court terme pouvant ouvrir des besoins de sous-traitance BTP locale.",
     lien: 'https://primature.sn/publications/actualites/conseil-interministeriel-devaluation-des-preparatifs-des-joj-dakar-2026'
+  },
+  {
+    id: 'sig_ci_afd_metro_abidjan_agora',
+    titre: "Côte d'Ivoire : la France (AFD) finance à hauteur de 23 milliards FCFA le métro d'Abidjan et le programme Agora (infrastructures sportives)",
+    bailleurOuSource: 'France (coopération bilatérale) / AFD',
+    pays: "Côte d'Ivoire",
+    secteur: 'BTP urbain — infrastructures de transport et sportives (génie civil)',
+    dateAnnonce: '2026-08-06',
+    resume: "Le ministre ivoirien de l'Économie, des Finances et du Budget et l'ambassadeur de France en Côte d'Ivoire ont signé le 6 août 2026 deux conventions de financement totalisant 23 milliards FCFA (35 M€) : l'une pour la déviation d'un collecteur d'eaux usées sur le tracé du métro d'Abidjan, l'autre pour la construction d'infrastructures sportives de proximité du programme « Agora » à Guiglo, Dabou, Boundiali et Dimbokro.",
+    lien: 'https://finances.gouv.ci/actualites/la-cote-d-ivoire-et-le-doing-business/65-contenu-dynamique/actualite/1205-financement-des-projets-de-construction-d-agora-et-du-metro-d-abidjan-la-cote-d-ivoire-et-la-france-signent-deux-conventions-de-23-milliards-fcfa'
+  },
+  {
+    id: 'sig_benin_bad_canada_port_cotonou',
+    titre: "Bénin : financement canadien de 18,3 M$ (fonds CACF géré par la BAD) pour la modernisation du Port de Cotonou (Terminal 5 et parking Zongo)",
+    bailleurOuSource: 'Fonds Canada-Afrique (CACF) géré par la BAD / Canada',
+    pays: 'Bénin',
+    secteur: 'Infrastructure portuaire / génie civil',
+    dateAnnonce: '2026-08-05',
+    resume: "À l'occasion de l'ouverture de la première ambassade résidente du Canada à Cotonou, la ministre canadienne des Affaires étrangères a confirmé un financement de 18,3 M$ (fonds CACF géré par la BAD) pour le Port Autonome de Cotonou : création du Terminal 5 (25 ha gagnés sur la mer) et d'un parking tampon « Zongo » de 14 ha pour le trafic de camions, dans le cadre d'un programme plus large de modernisation portuaire soutenu par la BAD.",
+    lien: 'https://lanouvelletribune.info/2026/08/benin-le-canada-investit-183-millions-de-dollars-dans-la-modernisation-du-port-de-cotonou/'
   }
 ];
