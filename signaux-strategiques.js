@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-14',
+  derniereMiseAJour: '2026-08-15',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -136,5 +136,45 @@ const SIGNAUX = [
     dateAnnonce: '2026-08-05',
     resume: "À l'occasion de l'ouverture de la première ambassade résidente du Canada à Cotonou, la ministre canadienne des Affaires étrangères a confirmé un financement de 18,3 M$ (fonds CACF géré par la BAD) pour le Port Autonome de Cotonou : création du Terminal 5 (25 ha gagnés sur la mer) et d'un parking tampon « Zongo » de 14 ha pour le trafic de camions, dans le cadre d'un programme plus large de modernisation portuaire soutenu par la BAD.",
     lien: 'https://lanouvelletribune.info/2026/08/benin-le-canada-investit-183-millions-de-dollars-dans-la-modernisation-du-port-de-cotonou/'
+  },
+  {
+    id: 'sig_bid_ci_corridor_tafire_ferkessedougou',
+    titre: "Côte d'Ivoire : la BID mobilise 235 M$ (~130 milliards FCFA) pour le tronçon autoroutier Tafiré-Ferkessédougou du corridor Abidjan-Burkina Faso-Mali",
+    bailleurOuSource: 'Banque Islamique de Développement (BID/IsDB)',
+    pays: "Côte d'Ivoire",
+    secteur: 'Génie civil / infrastructures routières (autoroute)',
+    dateAnnonce: '2026-06-19',
+    resume: "La Côte d'Ivoire et la BID ont signé le 19 juin 2026 à Bakou un accord de financement complémentaire de 235 millions de dollars pour la construction du tronçon Tafiré-Ferkessédougou (environ 60 km, réparti en deux lots) du corridor autoroutier reliant Abidjan aux frontières du Burkina Faso et du Mali, portant la contribution cumulée de la BID à ce corridor à près d'un milliard de dollars.",
+    lien: 'https://www.agenceecofin.com/actualites/2306-139525-cote-d-ivoire-235-millions-de-la-bid-pour-un-troncon-du-corridor-abidjan-burkina-faso-mali'
+  },
+  {
+    id: 'sig_afd_ci_marches_bouake_yopougon',
+    titre: "Côte d'Ivoire : l'AFD débloque 28,3 M€ (~18,6 milliards FCFA) de financement complémentaire pour la construction des marchés de Bouaké et Yopougon",
+    bailleurOuSource: 'Agence Française de Développement (AFD)',
+    pays: "Côte d'Ivoire",
+    secteur: 'Bâtiment — infrastructures commerciales (marchés)',
+    dateAnnonce: '2026-07-22',
+    resume: "Le Conseil des ministres ivoirien du 22 juillet 2026 a approuvé un financement complémentaire de 28,285 millions d'euros de l'AFD pour la construction de marchés modernes à Bouaké et à Yopougon, en complément de financements déjà mobilisés pour ces infrastructures commerciales.",
+    lien: 'https://www.fratmat.info/article/2643427/economie/logement-marches-de-bouake-et-de-yopougon-routes-le-gouvernement-mobilise-plus-de-125-milliards-de-fcfa-de-nouveaux-financements'
+  },
+  {
+    id: 'sig_berd_afinhab_logement_abordable_zone',
+    titre: "Bénin, Côte d'Ivoire, Sénégal : la BERD mobilise 9,6 M€ pour le logement abordable via AFINHAB",
+    bailleurOuSource: 'BERD (Banque européenne pour la reconstruction et le développement)',
+    pays: "Bénin, Côte d'Ivoire, Sénégal",
+    secteur: 'Bâtiment — logement / financement hypothécaire',
+    dateAnnonce: '2026-08-04',
+    resume: "La BERD a engagé 9,6 millions d'euros (~6,3 milliards FCFA) dans une émission obligataire sociale de 61 millions d'euros portée par AFINHAB, pour refinancer des crédits hypothécaires accordés par des banques partenaires et élargir l'accès au financement du logement abordable pour les ménages à revenus faibles et moyens au Bénin, en Côte d'Ivoire et au Sénégal — signe de l'entrée active de ce nouveau bailleur dans le secteur du logement en zone UEMOA.",
+    lien: 'https://lanouvelletribune.info/2026/08/la-berd-mobilise-96-me-au-benin-en-cote-divoire-et-au-senegal-pour-le-logement-abordable/'
+  },
+  {
+    id: 'sig_badea_ci_renforcement_partenariat_aout2026',
+    titre: "Côte d'Ivoire : la BADEA reçoit la ministre des Affaires étrangères à Abidjan pour approfondir son portefeuille (déjà 1,4 Md$ sur 67 opérations)",
+    bailleurOuSource: 'BADEA (Banque arabe pour le développement économique en Afrique)',
+    pays: "Côte d'Ivoire",
+    secteur: 'Infrastructures / énergie / secteur privé (multisectoriel)',
+    dateAnnonce: '2026-08-12',
+    resume: "Le président de la BADEA, Abdullah Kh. Almusaibeeh, a reçu le 12 août 2026 à Abidjan la ministre d'État ivoirienne des Affaires étrangères pour examiner le renforcement de la coopération financière ; la BADEA a déjà financé 67 opérations pour près de 1,4 milliard de dollars en Côte d'Ivoire et affiche une volonté de renforcer son soutien, notamment sur les infrastructures et l'énergie.",
+    lien: 'https://www.capmad.com/post/badea-moves-to-deepen-its-ivorian-portfolio-after-high-level-meeting-in-abidjan'
   }
 ];

@@ -2,25 +2,11 @@
 // Fichier volontairement allégé : uniquement des faits publics (titre, client, pays,
 // type, tier, lien, échéance). Aucune analyse stratégique interne DC n'est publiée ici.
 const OFFRES_WEB_META = {
-  derniereMiseAJour: '2026-08-13',
+  derniereMiseAJour: '2026-08-15',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
 const OFFRES_WEB = [
-  {
-    id: 'web_bceao_dakar_revetement_murs',
-    titre: "Fourniture et pose de revêtement sur les murs des bureaux de la Direction — Agence Principale BCEAO (AC/K00/APD/010/2026)",
-    client: 'BCEAO',
-    type: 'AO',
-    secteur: 'Bâtiment / finitions',
-    pays: 'Sénégal (Dakar)',
-    tier: 'A',
-    quickWin: true,
-    quickWinNote: 'Lot unique ~478 m², avance de démarrage 30%, pas de garantie de soumission, exécution max 6 mois',
-    source: 'BCEAO — portail marchés',
-    lien: 'https://www.bceao.int/fr/appels-offres/appel-concurrence-pour-la-fourniture-et-la-pose-de-revetement-sur-les-murs-des',
-    deadline: '2026-08-14'
-  },
   {
     id: 'web_bceao_baguida_togo_enrochement',
     titre: "Travaux de protection côtière d'urgence par revêtement en enrochements — Centre Aéré BCEAO Baguida",
