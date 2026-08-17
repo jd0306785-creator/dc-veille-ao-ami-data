@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-15',
+  derniereMiseAJour: '2026-08-17',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -176,5 +176,35 @@ const SIGNAUX = [
     dateAnnonce: '2026-08-12',
     resume: "Le président de la BADEA, Abdullah Kh. Almusaibeeh, a reçu le 12 août 2026 à Abidjan la ministre d'État ivoirienne des Affaires étrangères pour examiner le renforcement de la coopération financière ; la BADEA a déjà financé 67 opérations pour près de 1,4 milliard de dollars en Côte d'Ivoire et affiche une volonté de renforcer son soutien, notamment sur les infrastructures et l'énergie.",
     lien: 'https://www.capmad.com/post/badea-moves-to-deepen-its-ivorian-portfolio-after-high-level-meeting-in-abidjan'
+  },
+  {
+    id: 'sig_mauritanie_dakhlet_nouadhibou_port_assainissement',
+    titre: "Mauritanie : programme de développement 2026-2029 de Dakhlet Nouadhibou (39,6 milliards MRU), avec port en eaux profondes et station d'assainissement",
+    bailleurOuSource: 'Gouvernement mauritanien (budget national)',
+    pays: 'Mauritanie',
+    secteur: 'Infrastructure portuaire / assainissement / VRD',
+    dateAnnonce: '2026-07-29',
+    resume: "Le Conseil des ministres mauritanien a approuvé le 29 juillet 2026 un programme de développement de la wilaya de Dakhlet Nouadhibou (2026-2029) de 39,64 milliards MRU (~1 Md USD), incluant la construction d'un port en eaux profondes multifonctionnel, une station de traitement des eaux usées de la filière pêche (21 630 m³/jour), ainsi que des enveloppes pour routes/transport, eau/assainissement et modernisation urbaine.",
+    lien: 'https://ami.mr/fr/archives/299969'
+  },
+  {
+    id: 'sig_mauritanie_espagne_ico_vallee_fleuve_senegal',
+    titre: "Mauritanie : l'Espagne (ICO) accorde un crédit de 50 M€ pour des infrastructures dans la vallée du fleuve Sénégal, zone frontalière",
+    bailleurOuSource: "Instituto de Crédito Oficial (ICO), Espagne",
+    pays: 'Mauritanie',
+    secteur: 'Infrastructures / VRD (zone rurale frontalière)',
+    dateAnnonce: '2026-07-29',
+    resume: "Le gouvernement mauritanien a approuvé un accord de crédit de 50 M€ (2,28 milliards MRU) avec l'Institut de crédit officiel espagnol pour financer le Projet de résilience et de développement communautaire de la vallée du fleuve Sénégal, visant à améliorer l'accès à des infrastructures intégrées dans les communautés frontalières — signal de l'entrée d'un nouveau bailleur (Espagne/ICO) dans la zone.",
+    lien: 'https://fr.madar.mr/actualites/le-gouvernement-approuve-un-pret-espagnol-de-50-millions-deuros/'
+  },
+  {
+    id: 'sig_ci_guemon_bitumage_duekoue_bangolo',
+    titre: "Côte d'Ivoire : la préfecture du Guémon annonce de nouveaux axes routiers à bitumer à Duékoué et Bangolo",
+    bailleurOuSource: "Préfecture du Guémon (annonce locale, budget/bailleur non précisé)",
+    pays: "Côte d'Ivoire",
+    secteur: 'Génie civil / VRD (route)',
+    dateAnnonce: '2026-08-13',
+    resume: "À l'occasion du 66e anniversaire de l'indépendance, le préfet du Guémon a annoncé la construction d'environ 15 km de routes à Duékoué et la poursuite du bitumage/réhabilitation de routes à Bangolo et de l'axe Man-Kouibly. Aucun montant ni bailleur précis n'a été communiqué à ce stade — signal amont à confirmer par un futur AO.",
+    lien: 'https://www.aip.ci/cote-divoire-aip-independance-2026-le-prefet-du-guemon-annonce-le-bitumage-de-plusieurs-axes-routiers/'
   }
 ];
