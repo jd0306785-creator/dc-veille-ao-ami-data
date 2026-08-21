@@ -2,11 +2,21 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-17',
+  derniereMiseAJour: '2026-08-21',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
 const SIGNAUX = [
+  {
+    id: 'sig_ci_ppp_centrales_electriques_735mw',
+    titre: "Côte d'Ivoire : trois conventions PPP validées pour 735 MW de nouvelles capacités électriques (Taboth, Abidjan, Attakro/Abrobakro)",
+    bailleurOuSource: "Gouvernement de Côte d'Ivoire (Conseil des ministres) — opérateurs privés Genser Energy, Power32, PIPS",
+    pays: "Côte d'Ivoire",
+    secteur: 'Génie civil / énergie — construction de centrales thermiques',
+    dateAnnonce: '2026-08-05',
+    resume: "Le Conseil des ministres ivoirien a validé trois conventions de concession/PPP totalisant 735 MW : une centrale thermique à cycle combiné de 470 MW à Taboth (Genser Energy), une unité de production flottante de 225 MW à Abidjan (Power32), et une centrale thermique modulaire de 40 MW répartie entre Attakro et Abrobakro (PIPS) — projets impliquant d'importants travaux de génie civil pour la construction des sites.",
+    lien: 'https://www.sikafinance.com/marches/cote-d-ivoire-l-etat-valide-3-projets-totalisant-735-mw-pour-renforcer-l-approvisionnement-du-reseau-electrique_63463'
+  },
   {
     id: 'sig_senegal_sandiara_zes_agropole_autoroute',
     titre: "Sénégal : trois projets structurants annoncés pour la zone industrielle de Sandiara et Mbour (ZES, agropole, bretelle autoroutière à péage)",

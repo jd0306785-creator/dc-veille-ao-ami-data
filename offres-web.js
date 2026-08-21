@@ -2,25 +2,11 @@
 // Fichier volontairement allégé : uniquement des faits publics (titre, client, pays,
 // type, tier, lien, échéance). Aucune analyse stratégique interne DC n'est publiée ici.
 const OFFRES_WEB_META = {
-  derniereMiseAJour: '2026-08-20',
+  derniereMiseAJour: '2026-08-21',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
 const OFFRES_WEB = [
-  {
-    id: 'web_bceao_lome_voirie_agence_principale',
-    titre: "Travaux de réhabilitation de la voirie intérieure de l'Agence Principale de la BCEAO à Lomé",
-    client: 'BCEAO',
-    type: 'AO',
-    secteur: 'VRD / voirie',
-    pays: 'Togo (Lomé)',
-    tier: 'A',
-    quickWin: true,
-    quickWinNote: "Voirie sur site unique, corps de métier VRD cœur de DC, maître d'ouvrage BCEAO (paiement fiable), pas de groupement nécessaire",
-    source: 'BCEAO — portail marchés',
-    lien: 'https://www.bceao.int/fr/appels-offres/appels-offres-marches-publics-achats',
-    deadline: '2026-09-11'
-  },
   {
     id: 'web_bceao_baguida_togo_enrochement',
     titre: "Travaux de protection côtière d'urgence par revêtement en enrochements — Centre Aéré BCEAO Baguida",
