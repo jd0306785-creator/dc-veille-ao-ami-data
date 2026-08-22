@@ -2,23 +2,11 @@
 // Fichier volontairement allégé : uniquement des faits publics (titre, client, pays,
 // type, tier, lien, échéance). Aucune analyse stratégique interne DC n'est publiée ici.
 const OFFRES_WEB_META = {
-  derniereMiseAJour: '2026-08-21',
+  derniereMiseAJour: '2026-08-22',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
 const OFFRES_WEB = [
-  {
-    id: 'web_bceao_baguida_togo_enrochement',
-    titre: "Travaux de protection côtière d'urgence par revêtement en enrochements — Centre Aéré BCEAO Baguida",
-    client: 'BCEAO',
-    type: 'AO',
-    secteur: 'Génie civil / travaux maritimes',
-    pays: 'Togo (Baguida)',
-    tier: 'A',
-    source: 'BCEAO — portail marchés',
-    lien: 'https://www.bceao.int/fr/appels-offres/travaux-de-protection-cotiere-durgence-par-revetement-en-enrochements-au-centre-aere',
-    deadline: '2026-08-21'
-  },
   {
     id: 'web_bceao_yamoussoukro_sol_resine',
     titre: "Reprise partielle du revêtement au sol (résine) et marquage au sol — Centre de Traitement Fiduciaire BCEAO",
