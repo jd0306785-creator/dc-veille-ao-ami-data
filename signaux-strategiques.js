@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-21',
+  derniereMiseAJour: '2026-08-23',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -216,5 +216,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-08-13',
     resume: "À l'occasion du 66e anniversaire de l'indépendance, le préfet du Guémon a annoncé la construction d'environ 15 km de routes à Duékoué et la poursuite du bitumage/réhabilitation de routes à Bangolo et de l'axe Man-Kouibly. Aucun montant ni bailleur précis n'a été communiqué à ce stade — signal amont à confirmer par un futur AO.",
     lien: 'https://www.aip.ci/cote-divoire-aip-independance-2026-le-prefet-du-guemon-annonce-le-bitumage-de-plusieurs-axes-routiers/'
+  },
+  {
+    id: 'sig_senegal_snhlm_bambilor_phase2',
+    titre: "Sénégal : SN HLM lance la phase 2 du programme HLM 1 (157 logements) et l'aménagement de Bambilor 2 (20 ha)",
+    bailleurOuSource: 'SN HLM (société parapublique, fonds propres)',
+    pays: 'Sénégal',
+    secteur: 'Bâtiment / logement social',
+    dateAnnonce: '2026-08-13',
+    resume: "SN HLM a lancé la construction de 157 nouveaux logements (phase 2 du programme HLM 1) ainsi que la viabilisation de 20 hectares dans le cadre du projet Bambilor 2, pour un investissement de 13 milliards FCFA ; travaux de cette phase déjà confiés à Delta, TKM et TKF (achèvement prévu sous 8 mois) — signal de la poursuite d'un programme national de logement social pouvant ouvrir de futurs lots.",
+    lien: 'https://www.capmad.com/post/in-bambilor-sn-hlm-relaunches-hlm-1-and-services-bambilor-2-to-boost-social-housing'
   }
 ];
