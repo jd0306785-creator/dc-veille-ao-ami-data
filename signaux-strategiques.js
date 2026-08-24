@@ -2,11 +2,21 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-23',
+  derniereMiseAJour: '2026-08-24',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
 const SIGNAUX = [
+  {
+    id: 'sig_mauritanie_nouakchott_phase2_ponts_voirie_ecoles',
+    titre: "Mauritanie : lancement de la phase 2 du programme de développement de Nouakchott (11,59 milliards MRU — ponts, voirie, écoles)",
+    bailleurOuSource: 'Gouvernement mauritanien (budget national)',
+    pays: 'Mauritanie',
+    secteur: 'Bâtiment / génie civil / VRD — ouvrages d\'art, voirie urbaine, établissements scolaires',
+    dateAnnonce: '2026-07-01',
+    resume: "Le gouvernement mauritanien a approuvé une deuxième phase du programme de développement de Nouakchott dotée de 11,59 milliards MRU (~289 M$), incluant la construction de 5 ponts aux points de congestion majeurs, l'aménagement de 67 km de voirie principale, la construction de 27 établissements scolaires (2 lycées, 7 collèges, 18 écoles primaires) et la mise à niveau d'infrastructures de santé, eau et électricité ; démarrage des travaux annoncé pour août 2026 sur une durée de 16 mois, projet distinct du programme Dakhlet Nouadhibou déjà suivi.",
+    lien: 'http://www.cridem.org/C_Info.php?article=794579'
+  },
   {
     id: 'sig_ci_ppp_centrales_electriques_735mw',
     titre: "Côte d'Ivoire : trois conventions PPP validées pour 735 MW de nouvelles capacités électriques (Taboth, Abidjan, Attakro/Abrobakro)",
