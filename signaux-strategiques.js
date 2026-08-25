@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-24',
+  derniereMiseAJour: '2026-08-25',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -236,5 +236,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-08-13',
     resume: "SN HLM a lancé la construction de 157 nouveaux logements (phase 2 du programme HLM 1) ainsi que la viabilisation de 20 hectares dans le cadre du projet Bambilor 2, pour un investissement de 13 milliards FCFA ; travaux de cette phase déjà confiés à Delta, TKM et TKF (achèvement prévu sous 8 mois) — signal de la poursuite d'un programme national de logement social pouvant ouvrir de futurs lots.",
     lien: 'https://www.capmad.com/post/in-bambilor-sn-hlm-relaunches-hlm-1-and-services-bambilor-2-to-boost-social-housing'
+  },
+  {
+    id: 'sig_bad_benin_togo_corridor_kara_kabou',
+    titre: "Bénin/Togo : la BAD (Fonds Africain de Développement) approuve un prêt de 59,78 M$ pour la réhabilitation du corridor frontalier Kara-Kabou (78,80 km)",
+    bailleurOuSource: 'Banque Africaine de Développement (FAD) / Banque Islamique de Développement (BID) / UEMOA',
+    pays: 'Bénin, Togo',
+    secteur: 'Génie civil / VRD — infrastructure routière transfrontalière',
+    dateAnnonce: '2026-05-21',
+    resume: "Le Conseil d'administration du Fonds africain de développement a approuvé le 21 mai 2026 à Abidjan un prêt de 59,78 M$ pour la réhabilitation de 78,80 km du tronçon frontalier Bénin-Togo (Ouaké-Kémérida-Soundjina-Kara-Djamdé-Kabou), avec traversée de la ville de Kara en 3x2 voies ; opération cofinancée par le Groupe BAD, la BID, l'UEMOA et les gouvernements du Togo et du Bénin dans le cadre du corridor CU18, signal amont avant de futurs marchés de travaux routiers.",
+    lien: 'https://www.afdb.org/fr/news-and-events/press-releases/le-fonds-africain-de-developpement-approuve-la-rehabilitation-dun-troncon-frontalier-entre-le-benin-et-le-togo-avec-un-financement-de-plus-de-59-millions-de-dollars-93898'
   }
 ];
