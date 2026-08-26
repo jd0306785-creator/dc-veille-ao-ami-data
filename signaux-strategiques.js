@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-25',
+  derniereMiseAJour: '2026-08-26',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -246,5 +246,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-05-21',
     resume: "Le Conseil d'administration du Fonds africain de développement a approuvé le 21 mai 2026 à Abidjan un prêt de 59,78 M$ pour la réhabilitation de 78,80 km du tronçon frontalier Bénin-Togo (Ouaké-Kémérida-Soundjina-Kara-Djamdé-Kabou), avec traversée de la ville de Kara en 3x2 voies ; opération cofinancée par le Groupe BAD, la BID, l'UEMOA et les gouvernements du Togo et du Bénin dans le cadre du corridor CU18, signal amont avant de futurs marchés de travaux routiers.",
     lien: 'https://www.afdb.org/fr/news-and-events/press-releases/le-fonds-africain-de-developpement-approuve-la-rehabilitation-dun-troncon-frontalier-entre-le-benin-et-le-togo-avec-un-financement-de-plus-de-59-millions-de-dollars-93898'
+  },
+  {
+    id: 'sig_senegal_autoroute_mbour_fatick_kaolack_inauguration',
+    titre: "Sénégal : inauguration de l'autoroute à péage Mbour-Fatick-Kaolack (738 M$, corridor Dakar-Bamako), extension vers Tambacounda à l'étude",
+    bailleurOuSource: 'China Exim Bank (~620 M$ sur 738 M$) / Gouvernement du Sénégal',
+    pays: 'Sénégal',
+    secteur: "Infrastructure routière / VRD associée — voiries de connexion et aménagements urbains à Thiadiaye et Kaolack",
+    dateAnnonce: '2026-08-22',
+    resume: "Le président Bassirou Diomaye Faye a inauguré le 22 août 2026 à Thiadiaye l'autoroute à péage Mbour-Fatick-Kaolack (100 km + 15 km de bretelles de connexion), d'un coût total de 738 M$ financé à hauteur d'environ 620 M$ par un prêt concessionnel de China Exim Bank, avec une vingtaine d'entreprises et PME sénégalaises impliquées dans les travaux (~3 000 emplois directs, ~60 milliards FCFA de sous-traitance) ; l'ouvrage relie la Petite Côte au bassin arachidier dans le corridor Dakar-Bamako, et un prolongement vers Tambacounda serait à l'étude (information à confirmer), signal d'opportunités à venir sur les voiries de connexion et aménagements urbains le long du corridor.",
+    lien: 'https://www.financialafrik.com/2026/08/24/senegal-une-autoroute-de-738-millions-de-dollars-inauguree-pour-renforcer-les-echanges-entre-les-regions/'
   }
 ];
