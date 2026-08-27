@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-26',
+  derniereMiseAJour: '2026-08-27',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -256,5 +256,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-08-22',
     resume: "Le président Bassirou Diomaye Faye a inauguré le 22 août 2026 à Thiadiaye l'autoroute à péage Mbour-Fatick-Kaolack (100 km + 15 km de bretelles de connexion), d'un coût total de 738 M$ financé à hauteur d'environ 620 M$ par un prêt concessionnel de China Exim Bank, avec une vingtaine d'entreprises et PME sénégalaises impliquées dans les travaux (~3 000 emplois directs, ~60 milliards FCFA de sous-traitance) ; l'ouvrage relie la Petite Côte au bassin arachidier dans le corridor Dakar-Bamako, et un prolongement vers Tambacounda serait à l'étude (information à confirmer), signal d'opportunités à venir sur les voiries de connexion et aménagements urbains le long du corridor.",
     lien: 'https://www.financialafrik.com/2026/08/24/senegal-une-autoroute-de-738-millions-de-dollars-inauguree-pour-renforcer-les-echanges-entre-les-regions/'
+  },
+  {
+    id: 'sig_ci_pnd_2026_2030_tgv_metro_logements_bm',
+    titre: "Côte d'Ivoire : le PND 2026-2030 (114 838 Md FCFA) confirme un pipeline BTP majeur (TGV 640 km, métro d'Abidjan, 150 000 logements) — 480 Md FCFA de financement Banque mondiale déjà signés",
+    bailleurOuSource: "Gouvernement de Côte d'Ivoire / Banque mondiale (Groupe consultatif du PND)",
+    pays: "Côte d'Ivoire",
+    secteur: 'BTP / génie civil / bâtiment — infrastructures ferroviaires, transport urbain, logement',
+    dateAnnonce: '2026-07-08',
+    resume: "Le Plan National de Développement (PND) 2026-2030 de la Côte d'Ivoire, adopté à l'unanimité par l'Assemblée nationale le 14 avril 2026 (investissement global visé de 114 838,5 milliards FCFA, ~206 Md$), porte plusieurs grands chantiers BTP à venir : un TGV de 640 km reliant Abidjan à Yamoussoukro, Bouaké, Korhogo et Ferkessédougou, la mise en service de la ligne 1 du métro d'Abidjan visée pour 2029, et la construction de 150 000 logements. Lors du Groupe consultatif de financement du PND tenu le 8 juillet 2026 à Abidjan, le gouvernement ivoirien et la Banque mondiale ont signé cinq nouveaux accords de financement d'environ 480 milliards FCFA (875 M$), sur un total de 80 milliards $ de promesses annoncées par l'ensemble des partenaires au développement — signal d'un pipeline pluriannuel de futurs marchés de travaux à suivre.",
+    lien: 'https://news.abidjan.net/articles/748617/en-marge-des-travaux-du-groupe-consultatif-du-pnd-2026-2030-le-gouvernement-ivoirien-et-la-banque-mondiale-signent-cinq-accords-de-financement-denviron-480-milliards-fcfa'
   }
 ];
