@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-27',
+  derniereMiseAJour: '2026-08-29',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -266,5 +266,35 @@ const SIGNAUX = [
     dateAnnonce: '2026-07-08',
     resume: "Le Plan National de Développement (PND) 2026-2030 de la Côte d'Ivoire, adopté à l'unanimité par l'Assemblée nationale le 14 avril 2026 (investissement global visé de 114 838,5 milliards FCFA, ~206 Md$), porte plusieurs grands chantiers BTP à venir : un TGV de 640 km reliant Abidjan à Yamoussoukro, Bouaké, Korhogo et Ferkessédougou, la mise en service de la ligne 1 du métro d'Abidjan visée pour 2029, et la construction de 150 000 logements. Lors du Groupe consultatif de financement du PND tenu le 8 juillet 2026 à Abidjan, le gouvernement ivoirien et la Banque mondiale ont signé cinq nouveaux accords de financement d'environ 480 milliards FCFA (875 M$), sur un total de 80 milliards $ de promesses annoncées par l'ensemble des partenaires au développement — signal d'un pipeline pluriannuel de futurs marchés de travaux à suivre.",
     lien: 'https://news.abidjan.net/articles/748617/en-marge-des-travaux-du-groupe-consultatif-du-pnd-2026-2030-le-gouvernement-ivoirien-et-la-banque-mondiale-signent-cinq-accords-de-financement-denviron-480-milliards-fcfa'
+  },
+  {
+    id: 'sig_ci_6e_pont_abidjan_abatta_koumassi',
+    titre: "Côte d'Ivoire : lancement en préparation du 6e pont d'Abidjan (Abatta-Koumassi-Port-Bouët, 200 milliards FCFA en PPP à péage)",
+    bailleurOuSource: "Gouvernement de Côte d'Ivoire (PPP) — short-list Socoprim / groupe chinois CCECC",
+    pays: "Côte d'Ivoire",
+    secteur: "Génie civil — ouvrage d'art (pont à péage), mobilité urbaine",
+    dateAnnonce: '2026-08-27',
+    resume: "Un nouveau pont de 1,5 km reliant Abatta (Cocody) à l'aéroport de Port-Bouët via Koumassi, estimé à 200 milliards FCFA (~305 M€), est en cours de montage en PPP à péage ; Socoprim (concessionnaire du pont Riviera-Marcory) serait favorite face au groupe chinois CCECC pour décrocher le marché de construction, signal amont avant l'attribution formelle.",
+    lien: 'https://www.financialafrik.com/2026/08/28/cote-divoire-200-milliards-de-fcfa-pour-le-6e-pont-dabidjan-entre-abatta-koumassi-et-port-bouet/'
+  },
+  {
+    id: 'sig_senegal_ageroute_extension_autoroute_tambacounda_saintlouis',
+    titre: "Sénégal : AGEROUTE annonce un pipeline d'extension autoroutière vers Tambacounda et Saint-Louis (plus de 900 km visés d'ici 2030)",
+    bailleurOuSource: 'AGEROUTE Sénégal',
+    pays: 'Sénégal',
+    secteur: 'Infrastructures routières / autoroutes',
+    dateAnnonce: '2026-08-28',
+    resume: "Le directeur général d'AGEROUTE a indiqué que l'État vise un réseau autoroutier de plus de 900 km d'ici 2030, avec deux nouveaux tronçons structurants en préparation au-delà des 520 km déjà engagés : Dakar-Tivaouane-Saint-Louis (200 km) et Kaolack-Tambacounda (260 km), en complément de l'axe Mbour-Fatick-Kaolack déjà livré — signal amont sur un pipeline de futurs marchés routiers pas encore mis en appel d'offres.",
+    lien: 'https://www.pibusinessinfo.com/reseau-autoroutier-au-senegal-2026-extension-520-km-infrastructures/'
+  },
+  {
+    id: 'sig_benin_deal_room_2026_appel_projets',
+    titre: "Bénin : forum d'investissement « Benin Deal Room 2026 » présentant plus de 20 projets publics (2 à 3 Md$), volet infrastructures/logistique inclus",
+    bailleurOuSource: "Gouvernement du Bénin (ministères du Tourisme et du Commerce extérieur, Affaires étrangères, APIEx)",
+    pays: 'Bénin',
+    secteur: 'Infrastructures / logistique-transport / multisectoriel',
+    dateAnnonce: '2026-08-21',
+    resume: "Le Bénin organise un forum d'investissement à Cotonou (16-18 septembre 2026) présentant plus de 20 projets publics d'une valeur cumulée de 2 à 3 milliards de dollars à des fonds d'investissement et institutions financières, avec un volet infrastructures/logistique/transport explicite ; l'appel à projets était ouvert jusqu'au 28 août 2026 — signal amont sur un pipeline de projets encore en recherche de financement, à confirmer par de futurs AO.",
+    lien: 'https://www.kaweru.com/economie/2026/08/21/benin-deal-room-2026-lappel-a-projets-ouvert-jusquau-28-aout/'
   }
 ];
