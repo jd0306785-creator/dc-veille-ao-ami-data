@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-29',
+  derniereMiseAJour: '2026-08-30',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -274,8 +274,28 @@ const SIGNAUX = [
     pays: "Côte d'Ivoire",
     secteur: "Génie civil — ouvrage d'art (pont à péage), mobilité urbaine",
     dateAnnonce: '2026-08-27',
-    resume: "Un nouveau pont de 1,5 km reliant Abatta (Cocody) à l'aéroport de Port-Bouët via Koumassi, estimé à 200 milliards FCFA (~305 M€), est en cours de montage en PPP à péage ; Socoprim (concessionnaire du pont Riviera-Marcory) serait favorite face au groupe chinois CCECC pour décrocher le marché de construction, signal amont avant l'attribution formelle.",
+    resume: "Un nouveau pont de 1,5 km reliant Abatta (Cocody) à l'aéroport de Port-Bouët via Koumassi, estimé à 200 milliards FCFA (~305 M€), est monté en PPP à péage. Mise à jour du 28 août 2026 : l'État ivoirien écarterait le groupe chinois CCECC au profit de Socoprim (Bouygues majoritaire, déjà concessionnaire du pont Riviera-Marcory) pour construire et exploiter l'ouvrage — avancée concrète vers l'attribution formelle et de futurs lots de travaux/sous-traitance.",
     lien: 'https://www.financialafrik.com/2026/08/28/cote-divoire-200-milliards-de-fcfa-pour-le-6e-pont-dabidjan-entre-abatta-koumassi-et-port-bouet/'
+  },
+  {
+    id: 'sig_ci_mcc_300m_reseau_electrique',
+    titre: "Côte d'Ivoire : ratification d'un don américain (MCC) de 171 Md FCFA (300 M$) pour la modernisation du réseau électrique régional",
+    bailleurOuSource: 'Millennium Challenge Corporation (MCC) — gouvernement des États-Unis',
+    pays: "Côte d'Ivoire",
+    secteur: 'Énergie — modernisation de réseau électrique (volet génie civil : lignes et postes)',
+    dateAnnonce: '2026-08-05',
+    resume: "Le Conseil des ministres ivoirien a ratifié le 5 août 2026 un don de 171 milliards FCFA (300 M$) de la Millennium Challenge Corporation américaine, dans le cadre du Programme Compact régional pour l'énergie, destiné à appuyer la phase 2 du West African Power Pool et à moderniser le réseau électrique national pour les échanges transfrontaliers.",
+    lien: 'https://news.abidjan.net/articles/748806/financement-du-programme-compact-regional-pour-lenergie-letat-de-cote-divoire-mobilise-171-milliards-fcfa'
+  },
+  {
+    id: 'sig_mauritanie_solaire_eolien_stockage_ppp',
+    titre: "Mauritanie : lancement en PPP d'un méga-projet solaire-éolien-stockage de 287 M$ (Nouakchott/Boulenouar)",
+    bailleurOuSource: "Ministère de l'Énergie et du Pétrole (Mauritanie) — partenariat public-privé",
+    pays: 'Mauritanie',
+    secteur: 'Énergie — construction de centrales (génie civil)',
+    dateAnnonce: '2026-08-15',
+    resume: "Le gouvernement mauritanien a lancé un projet énergétique de 287 M$ en partenariat public-privé sur 15 ans, combinant une centrale solaire de 160 MW à Nouakchott, une centrale éolienne de 60 MW à Boulenouar et un système de stockage par batteries de 370 MWh — chantiers impliquant d'importants travaux de génie civil pour la construction des sites.",
+    lien: 'https://fr.apanews.net/news/mauritanie-mega-projet-solaire-eolien-de-287-millions-de-dollars/'
   },
   {
     id: 'sig_senegal_ageroute_extension_autoroute_tambacounda_saintlouis',
