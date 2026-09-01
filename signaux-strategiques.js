@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-08-30',
+  derniereMiseAJour: '2026-09-01',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -316,5 +316,25 @@ const SIGNAUX = [
     dateAnnonce: '2026-08-21',
     resume: "Le Bénin organise un forum d'investissement à Cotonou (16-18 septembre 2026) présentant plus de 20 projets publics d'une valeur cumulée de 2 à 3 milliards de dollars à des fonds d'investissement et institutions financières, avec un volet infrastructures/logistique/transport explicite ; l'appel à projets était ouvert jusqu'au 28 août 2026 — signal amont sur un pipeline de projets encore en recherche de financement, à confirmer par de futurs AO.",
     lien: 'https://www.kaweru.com/economie/2026/08/21/benin-deal-room-2026-lappel-a-projets-ouvert-jusquau-28-aout/'
+  },
+  {
+    id: 'sig_togo_20000_logements_ami_etudes',
+    titre: "Togo : nouvelle étape pour le programme de 20 000 logements à coûts abordables (recrutement d'une firme pour le cahier des charges architecturales et techniques)",
+    bailleurOuSource: 'Banque Africaine de Développement (BAD) — maîtrise d\'ouvrage CITAFRIC (Togo), complément BOAD',
+    pays: 'Togo',
+    secteur: 'Bâtiment / logement social — programme de 20 000 logements',
+    dateAnnonce: '2026-07-15',
+    resume: "L'Agence de développement urbain et municipal du Togo (CITAFRIC) a lancé un appel à manifestation d'intérêt pour recruter une firme chargée d'élaborer le cahier des charges architecturales et techniques du programme de construction de 20 000 logements à coûts abordables (financé par un prêt de la BAD, complété par la BOAD), déployé principalement sur le site de Kpomé-Dalavé (1 177 ha) ainsi qu'à Sagbado-Avoèmé et Yokoè-Kopegan — signal amont avant de futurs marchés de construction de logements à grande échelle au Togo.",
+    lien: 'https://www.togofirst.com/fr/btp/1507-19569-construction-de-20-000-logements-le-togo-amorce-une-nouvelle-etape'
+  },
+  {
+    id: 'sig_boad_nouveau_siege_lome_ami_architecture',
+    titre: "Togo : la BOAD lance une AMI pour la conception (maîtrise d'œuvre) de son nouvel immeuble de siège à Lomé",
+    bailleurOuSource: 'BOAD (ressources propres)',
+    pays: 'Togo',
+    secteur: "Bâtiment tertiaire — conception/maîtrise d'œuvre d'un nouvel immeuble de bureaux",
+    dateAnnonce: '2026-06-23',
+    resume: "La BOAD a publié l'AMI n°001/2026/DAG/DPA/BOAD pour recruter un cabinet d'architecture chargé de la maîtrise d'œuvre complète de la construction d'un nouvel immeuble à son siège de Lomé, destiné à pallier les limites de capacité et d'infrastructures techniques du bâtiment actuel — signal amont avant un futur marché de construction du nouveau siège BOAD.",
+    lien: 'https://www.boad.org/fr/opportunites/appels-doffre/ami-001-2026-architecture-nouveau-siege-boad-lome/'
   }
 ];
