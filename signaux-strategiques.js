@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-01',
+  derniereMiseAJour: '2026-09-02',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -336,5 +336,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-06-23',
     resume: "La BOAD a publié l'AMI n°001/2026/DAG/DPA/BOAD pour recruter un cabinet d'architecture chargé de la maîtrise d'œuvre complète de la construction d'un nouvel immeuble à son siège de Lomé, destiné à pallier les limites de capacité et d'infrastructures techniques du bâtiment actuel — signal amont avant un futur marché de construction du nouveau siège BOAD.",
     lien: 'https://www.boad.org/fr/opportunites/appels-doffre/ami-001-2026-architecture-nouveau-siege-boad-lome/'
+  },
+  {
+    id: 'sig_senegal_fmi_accord_fec_2026',
+    titre: "Sénégal : accord de principe FMI-Sénégal sur un programme de 2,2 Md$ (Facilité Élargie de Crédit), premier retour du FMI depuis la crise des dettes cachées",
+    bailleurOuSource: 'Fonds Monétaire International (FMI)',
+    pays: 'Sénégal',
+    secteur: 'Macro-financier — conditionne la mobilisation de financements infrastructures (Banque mondiale, BAD, autres partenaires)',
+    dateAnnonce: '2026-09-01',
+    resume: "À l'issue d'une mission à Dakar (19 août - 1er septembre 2026), le FMI et les autorités sénégalaises ont conclu un accord de principe sur un programme de 36 mois au titre de la Facilité Élargie de Crédit (FEC) d'environ 2,2 milliards de dollars (~1 243 milliards FCFA), sous réserve d'approbation du Conseil d'administration du FMI et de l'obtention d'assurances de financement des partenaires ; le FMI indique que ce programme devrait faciliter la mobilisation de financements complémentaires de la Banque mondiale, de la BAD et d'autres bailleurs pour le Sénégal — signal amont sur un possible déblocage de financements d'infrastructures actuellement en attente.",
+    lien: 'https://xalimasn.com/2026/09/01/fmi-senegal-un-accord-de-22-milliards-de-dollars-ouvre-une-nouvelle-etape-dans-la-crise-de-la-dette'
   }
 ];
