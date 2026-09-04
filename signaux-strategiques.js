@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-02',
+  derniereMiseAJour: '2026-09-04',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -346,5 +346,35 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-01',
     resume: "À l'issue d'une mission à Dakar (19 août - 1er septembre 2026), le FMI et les autorités sénégalaises ont conclu un accord de principe sur un programme de 36 mois au titre de la Facilité Élargie de Crédit (FEC) d'environ 2,2 milliards de dollars (~1 243 milliards FCFA), sous réserve d'approbation du Conseil d'administration du FMI et de l'obtention d'assurances de financement des partenaires ; le FMI indique que ce programme devrait faciliter la mobilisation de financements complémentaires de la Banque mondiale, de la BAD et d'autres bailleurs pour le Sénégal — signal amont sur un possible déblocage de financements d'infrastructures actuellement en attente.",
     lien: 'https://xalimasn.com/2026/09/01/fmi-senegal-un-accord-de-22-milliards-de-dollars-ouvre-une-nouvelle-etape-dans-la-crise-de-la-dette'
+  },
+  {
+    id: 'sig_benin_shelter_afrique_adhesion',
+    titre: "Bénin : adhésion à la Shelter Afrique Development Bank, nouveau bailleur panafricain dédié au logement",
+    bailleurOuSource: 'Gouvernement du Bénin / Shelter Afrique Development Bank',
+    pays: 'Bénin',
+    secteur: "Bâtiment / logement — financement de l'habitat et de l'immobilier",
+    dateAnnonce: '2026-09-02',
+    resume: "Le Conseil des ministres du 2 septembre 2026 a autorisé la transmission à l'Assemblée nationale, pour ratification, de l'adhésion du Bénin à l'accord instituant la Shelter Afrique Development Bank, banque panafricaine dédiée exclusivement au financement de l'habitat et de l'immobilier, ainsi qu'au Fonds pour le développement des exportations en Afrique — signal de l'entrée d'un nouveau bailleur spécialisé logement dans le paysage béninois.",
+    lien: 'https://www.nasuba.info/politique-societe/benin-les-grandes-decisions-du-conseil-des-ministres-du-mercredi-2-septembre-2026/'
+  },
+  {
+    id: 'sig_benin_35_centres_integres',
+    titre: "Bénin : programme de construction de 35 centres intégrés (services sociaux, La Poste, numérique) dans 26 communes",
+    bailleurOuSource: 'Gouvernement du Bénin (Programme des filets sociaux productifs)',
+    pays: 'Bénin',
+    secteur: 'Bâtiment / infrastructures sociales',
+    dateAnnonce: '2026-09-02',
+    resume: "Le Conseil des ministres du 2 septembre 2026 a autorisé la construction de 35 centres intégrés dans 26 communes, regroupant guichets uniques de protection sociale, agences de La Poste du Bénin et points numériques communautaires, dans le cadre du Programme des filets sociaux productifs — projet de bâtiment public en amont de futurs appels d'offres.",
+    lien: 'https://benin-news.com/2026/09/03/35-centres-integres-benin/'
+  },
+  {
+    id: 'sig_ci_bidc_bhci_logement',
+    titre: "Côte d'Ivoire : la BIDC accorde une ligne de financement de 10 milliards FCFA à la BHCI pour le logement",
+    bailleurOuSource: "Banque d'Investissement et de Développement de la CEDEAO (BIDC/EBID)",
+    pays: "Côte d'Ivoire",
+    secteur: 'Bâtiment / logement — refinancement de la chaîne de valeur construction-promotion immobilière',
+    dateAnnonce: '2026-09-02',
+    resume: "La BIDC et la Banque de l'Habitat de Côte d'Ivoire (BHCI) ont signé le 2 septembre 2026 un accord de financement de 10 milliards FCFA destiné à renforcer la capacité de financement du logement et l'accès aux ressources financières des PME/PMI actives dans la construction, la promotion immobilière et les travaux publics.",
+    lien: 'https://www.financialafrik.com/2026/09/02/la-bidc-accorde-une-ligne-de-financement-de-10-milliards-de-fcfa-a-la-bhci-pour-soutenir-le-developpement-du-logement-et-renforcer-la-chaine-de-valeur-immobiliere-en-cote-divoire/'
   }
 ];
