@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-04',
+  derniereMiseAJour: '2026-09-05',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -376,5 +376,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-02',
     resume: "La BIDC et la Banque de l'Habitat de Côte d'Ivoire (BHCI) ont signé le 2 septembre 2026 un accord de financement de 10 milliards FCFA destiné à renforcer la capacité de financement du logement et l'accès aux ressources financières des PME/PMI actives dans la construction, la promotion immobilière et les travaux publics.",
     lien: 'https://www.financialafrik.com/2026/09/02/la-bidc-accorde-une-ligne-de-financement-de-10-milliards-de-fcfa-a-la-bhci-pour-soutenir-le-developpement-du-logement-et-renforcer-la-chaine-de-valeur-immobiliere-en-cote-divoire/'
+  },
+  {
+    id: 'sig_togo_centrale_thermique_bifuel_120mw_lome',
+    titre: "Togo : avis de mobilisation anticipée de marché pour une centrale thermique bifuel de 120 MW à Lomé (appui Banque mondiale)",
+    bailleurOuSource: "Ministère chargé de l'Énergie et des Ressources Minières (Togo) / Banque mondiale",
+    pays: 'Togo',
+    secteur: 'Génie civil / énergie — construction de centrale thermique',
+    dateAnnonce: '2026-08-30',
+    resume: "Le ministère togolais chargé de l'Énergie a publié un avis de mobilisation anticipée de marché pour un projet de centrale thermique bifuel de 120 MW sur le site de la centrale thermique de Lomé, avec l'appui financier de la Banque mondiale ; une réunion de consultation des acteurs du marché est prévue le 18 septembre 2026 (inscriptions jusqu'au 14 septembre), en amont d'une sélection de l'opérateur attendue au 4e trimestre 2026 — signal amont avant de futurs marchés de travaux de génie civil liés à la construction du site.",
+    lien: 'https://www.agenceecofin.com/actualites-industries/3008-141145-togo-un-projet-de-centrale-thermique-de-120-mw-a-bifuel-annonce-a-lome'
   }
 ];
