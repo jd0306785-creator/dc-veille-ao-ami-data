@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-05',
+  derniereMiseAJour: '2026-09-06',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -386,5 +386,25 @@ const SIGNAUX = [
     dateAnnonce: '2026-08-30',
     resume: "Le ministère togolais chargé de l'Énergie a publié un avis de mobilisation anticipée de marché pour un projet de centrale thermique bifuel de 120 MW sur le site de la centrale thermique de Lomé, avec l'appui financier de la Banque mondiale ; une réunion de consultation des acteurs du marché est prévue le 18 septembre 2026 (inscriptions jusqu'au 14 septembre), en amont d'une sélection de l'opérateur attendue au 4e trimestre 2026 — signal amont avant de futurs marchés de travaux de génie civil liés à la construction du site.",
     lien: 'https://www.agenceecofin.com/actualites-industries/3008-141145-togo-un-projet-de-centrale-thermique-de-120-mw-a-bifuel-annonce-a-lome'
+  },
+  {
+    id: 'sig_togo_club_ppp_rn1_davie_atakpame',
+    titre: "Togo : lancement du « Club PPP Togo » et annonce d'une mise en concession de la RN1 Davié-Atakpamé (dédoublement 2x2 voies)",
+    bailleurOuSource: 'Gouvernement togolais (Ministère de l\'Économie et du Suivi de l\'action gouvernementale)',
+    pays: 'Togo',
+    secteur: 'Génie civil routier — dédoublement 2x2 voies, cadre PPP infrastructures',
+    dateAnnonce: '2026-09-03',
+    resume: "Le Togo a officiellement lancé un « Club PPP » pour accélérer la mobilisation d'investissements privés dans les infrastructures et a annoncé, à cette occasion, la mise en concession/PPP envisagée du dédoublement en 2x2 voies de la RN1 entre Davié et Atakpamé (tronçon Togblécopé-Atakpamé de 145,5 km), pour un coût estimé à environ 600 millions de dollars ; une Task Force a été mise en place pour accélérer le montage du projet.",
+    lien: 'https://www.jeuneafrique.com/mag/786011/economie-entreprises/togo-vers-un-partenariat-public-prive-pour-laxe-routier-davie-atakpame/'
+  },
+  {
+    id: 'sig_benin_mcc_route_setto_dassa_zoume',
+    titre: "Bénin : compact régional MCC — reconstruction de la route Sètto/Bohicon-Dassa-Zoumè (83 km, corridor Cotonou-Niamey)",
+    bailleurOuSource: 'Millennium Challenge Corporation (MCC) / MCA-Bénin Régional — gouvernements des États-Unis et du Bénin',
+    pays: 'Bénin',
+    secteur: 'Génie civil routier — reconstruction en autoroute 2x2 voies',
+    dateAnnonce: '2026-07-16',
+    resume: "Le 3e Compact régional du MCC (10e session du Conseil d'administration MCA-Bénin Régional, 16 juillet 2026) prévoit la reconstruction en autoroute 2x2 voies du tronçon Sètto/Bohicon-Dassa-Zoumè (83 km), maillon du corridor Cotonou-Niamey, financée à hauteur de 202 millions $ (don du gouvernement américain) plus 15,15 millions $ de contrepartie béninoise ; les dispositions pour le démarrage des travaux étaient finalisées début septembre 2026.",
+    lien: 'https://www.agenceecofin.com/actualites-infrastructures/2007-140329-benin-le-chantier-de-reconstruction-de-laxe-setto-dassa-zoume-est-pret-a-demarrer'
   }
 ];
