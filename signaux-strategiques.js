@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-06',
+  derniereMiseAJour: '2026-09-08',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -406,5 +406,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-07-16',
     resume: "Le 3e Compact régional du MCC (10e session du Conseil d'administration MCA-Bénin Régional, 16 juillet 2026) prévoit la reconstruction en autoroute 2x2 voies du tronçon Sètto/Bohicon-Dassa-Zoumè (83 km), maillon du corridor Cotonou-Niamey, financée à hauteur de 202 millions $ (don du gouvernement américain) plus 15,15 millions $ de contrepartie béninoise ; les dispositions pour le démarrage des travaux étaient finalisées début septembre 2026.",
     lien: 'https://www.agenceecofin.com/actualites-infrastructures/2007-140329-benin-le-chantier-de-reconstruction-de-laxe-setto-dassa-zoume-est-pret-a-demarrer'
+  },
+  {
+    id: 'sig_senegal_plan_urgence_ponts_ziguinchor',
+    titre: "Sénégal : le chef de l'État ordonne un plan d'urgence national pour les ponts et l'accélération des programmes de logement, avec 25 milliards FCFA pour le second pont de Ziguinchor",
+    bailleurOuSource: 'Présidence de la République du Sénégal (fonds propres / budget national)',
+    pays: 'Sénégal',
+    secteur: "Bâtiment / génie civil — ouvrages d'art (ponts), logement social, infrastructures publiques",
+    dateAnnonce: '2026-07-17',
+    resume: "Lors d'un conseil interministériel, le président Bassirou Diomaye Faye a ordonné l'élaboration d'un plan d'urgence national pour la construction et la réhabilitation de ponts, ainsi que l'accélération des programmes de logement et d'infrastructures publiques ; il a notamment confirmé le financement sur fonds propres à hauteur de 25 milliards FCFA du second pont de Ziguinchor (lancement des travaux annoncé pour 2026) dans le cadre du Plan Diomaye pour la Casamance, en complément d'une enveloppe de 20 milliards FCFA pour le programme des 30 000 logements et de 51 milliards FCFA pour les programmes PUDC/PUMA/PROMOVILLES.",
+    lien: 'https://lesoleil.sn/actualites/politique/logements-et-infrastructures-publiques-le-chef-de-letat-ordonne-lacceleration-des-programmes-et-un-plan-durgence-pour-les-ponts/'
   }
 ];
