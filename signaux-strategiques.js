@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-08',
+  derniereMiseAJour: '2026-09-09',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -416,5 +416,25 @@ const SIGNAUX = [
     dateAnnonce: '2026-07-17',
     resume: "Lors d'un conseil interministériel, le président Bassirou Diomaye Faye a ordonné l'élaboration d'un plan d'urgence national pour la construction et la réhabilitation de ponts, ainsi que l'accélération des programmes de logement et d'infrastructures publiques ; il a notamment confirmé le financement sur fonds propres à hauteur de 25 milliards FCFA du second pont de Ziguinchor (lancement des travaux annoncé pour 2026) dans le cadre du Plan Diomaye pour la Casamance, en complément d'une enveloppe de 20 milliards FCFA pour le programme des 30 000 logements et de 51 milliards FCFA pour les programmes PUDC/PUMA/PROMOVILLES.",
     lien: 'https://lesoleil.sn/actualites/politique/logements-et-infrastructures-publiques-le-chef-de-letat-ordonne-lacceleration-des-programmes-et-un-plan-durgence-pour-les-ponts/'
+  },
+  {
+    id: 'sig_senegal_dpg_pm_2026_logement_desenclavement',
+    titre: "Sénégal : la déclaration de politique générale du Premier ministre chiffre un plan logement (500 000 unités) et désenclavement routier (3 000 km)",
+    bailleurOuSource: 'Gouvernement du Sénégal (Primature / Assemblée nationale)',
+    pays: 'Sénégal',
+    secteur: 'Bâtiment / logement social — routes / désenclavement — santé (hôpitaux)',
+    dateAnnonce: '2026-09-08',
+    resume: "Lors de sa déclaration de politique générale devant l'Assemblée nationale le 8 septembre 2026, le Premier ministre Ahmadou Al Aminou Lô a annoncé un objectif de 500 000 logements d'ici 2035 (30 000/an), un programme de désenclavement routier de 3 000 km, et la construction de 4 hôpitaux régionaux de 350 lits (Saint-Louis, Ziguinchor, Mbour, Kaolack) ; l'enveloppe logement 2026 (70 Md FCFA) doublerait en 2027 (140 Md FCFA).",
+    lien: 'https://aps.sn/un-total-de-30-000-logements-par-an-et-3-000-km-de-desenclavement-annonces/'
+  },
+  {
+    id: 'sig_africa50_20md_pipeline_2026',
+    titre: "Afrique de l'Ouest : Africa50 vise plus de 20 Md$ de projets d'infrastructures co-investis d'ici cinq ans",
+    bailleurOuSource: 'Africa50',
+    pays: "Zone régionale (dont Sénégal, Côte d'Ivoire)",
+    secteur: 'Infrastructures multisectorielles — électricité, transport, logistique, numérique',
+    dateAnnonce: '2026-09-09',
+    resume: "Africa50 annonce viser au moins 20 milliards de dollars de projets d'infrastructures co-investis d'ici cinq ans, contre environ 9 Md$ actuellement sur 36 projets (~500 M$ de fonds propres engagés), avec une priorité affichée aux zones où les besoins de financement restent les plus criants — signal d'une montée en puissance de ce bailleur panafricain dans la région.",
+    lien: 'https://www.agenceecofin.com/actualites/0909-141406-africa50-vise-plus-de-20-milliards-de-projets-co-investis-en-afrique-d-ici-cinq-ans'
   }
 ];
