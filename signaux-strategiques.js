@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-09',
+  derniereMiseAJour: '2026-09-11',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -436,5 +436,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-09',
     resume: "Africa50 annonce viser au moins 20 milliards de dollars de projets d'infrastructures co-investis d'ici cinq ans, contre environ 9 Md$ actuellement sur 36 projets (~500 M$ de fonds propres engagés), avec une priorité affichée aux zones où les besoins de financement restent les plus criants — signal d'une montée en puissance de ce bailleur panafricain dans la région.",
     lien: 'https://www.agenceecofin.com/actualites/0909-141406-africa50-vise-plus-de-20-milliards-de-projets-co-investis-en-afrique-d-ici-cinq-ans'
+  },
+  {
+    id: 'sig_senegal_conseil_ministres_casamance_strategie_portuaire',
+    titre: "Sénégal : le Conseil des ministres du 10 septembre demande l'accélération du Plan Diomaye pour la Casamance et rappelle l'échéance de la stratégie portuaire nationale (Ndayane, Bargny-Sendou)",
+    bailleurOuSource: 'Présidence de la République du Sénégal (Conseil des ministres)',
+    pays: 'Sénégal',
+    secteur: 'Infrastructures régionales (Casamance) / infrastructures portuaires — VRD et bâtiments sociaux de base',
+    dateAnnonce: '2026-09-10',
+    resume: "Lors du Conseil des ministres du 10 septembre 2026, le président Bassirou Diomaye Faye a demandé l'accélération de la mise en œuvre du Plan Diomaye pour la Casamance et le renforcement des moyens de PUMA/ANRAC pour les infrastructures sociales de base en zones frontalières ; le Conseil a aussi rappelé l'échéance de finalisation, avant fin octobre 2026, du projet de loi sur la stratégie portuaire nationale, avec une attention particulière portée aux infrastructures de Ndayane et Bargny-Sendou (livraison de la plateforme de Bargny-Sendou attendue fin 2026).",
+    lien: 'https://aps.sn/le-communique-du-conseil-des-ministres-du-jeudi-10-septembre-2026/'
   }
 ];
