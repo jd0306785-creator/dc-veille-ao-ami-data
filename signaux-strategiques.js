@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-11',
+  derniereMiseAJour: '2026-09-12',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -446,5 +446,25 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-10',
     resume: "Lors du Conseil des ministres du 10 septembre 2026, le président Bassirou Diomaye Faye a demandé l'accélération de la mise en œuvre du Plan Diomaye pour la Casamance et le renforcement des moyens de PUMA/ANRAC pour les infrastructures sociales de base en zones frontalières ; le Conseil a aussi rappelé l'échéance de finalisation, avant fin octobre 2026, du projet de loi sur la stratégie portuaire nationale, avec une attention particulière portée aux infrastructures de Ndayane et Bargny-Sendou (livraison de la plateforme de Bargny-Sendou attendue fin 2026).",
     lien: 'https://aps.sn/le-communique-du-conseil-des-ministres-du-jeudi-10-septembre-2026/'
+  },
+  {
+    id: 'sig_benin_aiib_memorandum_2026',
+    titre: "Bénin : signature d'un protocole d'accord avec la Banque Asiatique d'Investissement pour les Infrastructures (AIIB), nouveau bailleur actif dans la zone",
+    bailleurOuSource: "AIIB (Asian Infrastructure Investment Bank) / Gouvernement du Bénin (Présidence, Ministère de l'Économie et des Finances)",
+    pays: 'Bénin',
+    secteur: 'Infrastructures multisectorielles — énergie, infrastructures portuaires et routières, transport, aéroports, agriculture durable',
+    dateAnnonce: '2026-09-08',
+    resume: "La présidente de l'AIIB, Zou Jiayi, en visite officielle à Cotonou (dont le Port Autonome de Cotonou), a rencontré le président Wadagni et signé un mémorandum d'entente formalisant l'intérêt de la banque à investir dans six secteurs prioritaires du Bénin, sans montant chiffré à ce stade — signal de l'entrée active d'un nouveau bailleur asiatique dans la zone, en amont de futurs projets/financements.",
+    lien: 'https://beninwebtv.bj/benin-et-aiib-signature-dun-memorandum-dentente-pour-renforcer-la-cooperation-dans-le-financement-des-infrastructures/'
+  },
+  {
+    id: 'sig_gambie_sfd_routes_grand_banjul',
+    titre: "Gambie : le Fonds Saoudien pour le Développement (SFD) octroie un financement additionnel de 10 M$ pour les routes du Grand Banjul",
+    bailleurOuSource: 'Fonds Saoudien pour le Développement (SFD) / Gouvernement de Gambie (Ministère des Finances)',
+    pays: 'Gambie',
+    secteur: 'VRD / voirie urbaine — aménagement de routes',
+    dateAnnonce: '2026-09-03',
+    resume: "La ministre gambienne des Finances, Seedy K.M. Keita, a signé avec le président du SFD un avenant de financement de 10 millions $ pour compléter l'aménagement de 50 km de routes dans la région du Grand Banjul, consolidant la présence de ce bailleur saoudien dans le financement des infrastructures gambiennes.",
+    lien: 'https://www.capmad.com/article/la-gambie-obtient-10-millions-de-dollars-additionnels-du-sfd-pour-boucler-les-routes-du-grand-banjul'
   }
 ];
