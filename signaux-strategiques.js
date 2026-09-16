@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-12',
+  derniereMiseAJour: '2026-09-16',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -466,5 +466,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-03',
     resume: "La ministre gambienne des Finances, Seedy K.M. Keita, a signé avec le président du SFD un avenant de financement de 10 millions $ pour compléter l'aménagement de 50 km de routes dans la région du Grand Banjul, consolidant la présence de ce bailleur saoudien dans le financement des infrastructures gambiennes.",
     lien: 'https://www.capmad.com/article/la-gambie-obtient-10-millions-de-dollars-additionnels-du-sfd-pour-boucler-les-routes-du-grand-banjul'
+  },
+  {
+    id: 'sig_benin_bad_ouidah_hillacondji_4lots',
+    titre: "Bénin : la BAD annonce le lancement effectif du dédoublement de la route Ouidah-Hillacondji (58,5 km), désormais scindé en 4 lots de travaux",
+    bailleurOuSource: 'Banque Africaine de Développement (BAD)',
+    pays: 'Bénin',
+    secteur: 'Génie civil routier / VRD — corridor Abidjan-Lagos (PIDA)',
+    dateAnnonce: '2026-09-10',
+    resume: "La BAD a annoncé le 10 septembre 2026 que le Bénin, avec son appui financier, a initié le projet de dédoublement de la route Ouidah-Hillacondji (58,5 km, frontière togolaise), désormais scindé en quatre lots de travaux, incluant aussi 35,5 km de voies de desserte Godomey-Ouidah, 21 km de voies vers des sites touristiques, une aire de stationnement poids lourds (6 ha) et des logements de service à la frontière (3 ha) ; composante béninoise de la phase 2 du corridor prioritaire Lomé-Cotonou (PIDA) — signal amont avant de futurs appels d'offres de travaux répartis en lots.",
+    lien: 'https://lanouvelletribune.info/2026/09/avec-lappui-de-la-bad-le-benin-initie-le-projet-de-dedoublement-de-la-route-ouidah-hillacondji/'
   }
 ];
