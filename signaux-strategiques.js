@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-16',
+  derniereMiseAJour: '2026-09-19',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -476,5 +476,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-10',
     resume: "La BAD a annoncé le 10 septembre 2026 que le Bénin, avec son appui financier, a initié le projet de dédoublement de la route Ouidah-Hillacondji (58,5 km, frontière togolaise), désormais scindé en quatre lots de travaux, incluant aussi 35,5 km de voies de desserte Godomey-Ouidah, 21 km de voies vers des sites touristiques, une aire de stationnement poids lourds (6 ha) et des logements de service à la frontière (3 ha) ; composante béninoise de la phase 2 du corridor prioritaire Lomé-Cotonou (PIDA) — signal amont avant de futurs appels d'offres de travaux répartis en lots.",
     lien: 'https://lanouvelletribune.info/2026/09/avec-lappui-de-la-bad-le-benin-initie-le-projet-de-dedoublement-de-la-route-ouidah-hillacondji/'
+  },
+  {
+    id: 'sig_ci_sia2026_investissements_38756md',
+    titre: "Côte d'Ivoire : le SIA 2026 annonce 38 756 milliards FCFA d'investissements infrastructures, appel au privé comme concepteur-financier-gestionnaire",
+    bailleurOuSource: "Gouvernement de Côte d'Ivoire (Ministère des Infrastructures) — 5e Salon des Infrastructures d'Abidjan (SIA 2026)",
+    pays: "Côte d'Ivoire",
+    secteur: 'BTP / infrastructures — financement et montages PPP',
+    dateAnnonce: '2026-09-17',
+    resume: "À l'occasion de la 5e édition du Salon des Infrastructures d'Abidjan (17-19 septembre 2026), le ministre des Infrastructures Yacouba Hien Sié a annoncé des investissements estimés à 38 756 milliards FCFA dans le cadre du PND 2026-2030, dont environ 70% attendus du secteur privé ; le Premier ministre Beugré Mambé a appelé les opérateurs privés à devenir concepteurs, financiers et gestionnaires d'infrastructures, le gouvernement disant vouloir accélérer la maturation de projets bancables.",
+    lien: 'https://www.fratmat.info/article/2644604/economie/5e-edition-du-siahien-sie-38-756-milliards-fcfa-pour-propulser-la-cote-divoire-dans-une-nouvelle-ere-des-infrastructures'
   }
 ];
