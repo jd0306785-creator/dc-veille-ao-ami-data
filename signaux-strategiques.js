@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-19',
+  derniereMiseAJour: '2026-09-20',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -486,5 +486,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-17',
     resume: "À l'occasion de la 5e édition du Salon des Infrastructures d'Abidjan (17-19 septembre 2026), le ministre des Infrastructures Yacouba Hien Sié a annoncé des investissements estimés à 38 756 milliards FCFA dans le cadre du PND 2026-2030, dont environ 70% attendus du secteur privé ; le Premier ministre Beugré Mambé a appelé les opérateurs privés à devenir concepteurs, financiers et gestionnaires d'infrastructures, le gouvernement disant vouloir accélérer la maturation de projets bancables.",
     lien: 'https://www.fratmat.info/article/2644604/economie/5e-edition-du-siahien-sie-38-756-milliards-fcfa-pour-propulser-la-cote-divoire-dans-une-nouvelle-ere-des-infrastructures'
+  },
+  {
+    id: 'sig_senegal_apurement_dette_entreprises_btp_1400md',
+    titre: "Sénégal : l'État annonce un plan d'apurement sur trois ans de plus de 1 400 milliards FCFA de dette envers les entreprises, secteur BTP en première ligne",
+    bailleurOuSource: 'Primature du Sénégal (budget national)',
+    pays: 'Sénégal',
+    secteur: 'BTP / bâtiment / travaux publics — climat de paiement du secteur',
+    dateAnnonce: '2026-09-19',
+    resume: "Le Premier ministre Ahmadou Al Aminou Lô a confirmé le 19 septembre 2026 un calendrier d'apurement sur trois ans de plus de 1 400 milliards FCFA d'arriérés dus par l'État aux entreprises (300 milliards FCFA d'ici fin 2026, puis deux tranches de 550 milliards en 2027 et 2028) ; le secteur du BTP, en première ligne de ces impayés avec chantiers à l'arrêt et investissements en berne, juge ce délai trop long et réclame un remboursement en deux ans — signal à suivre sur le climat de paiement des marchés publics sénégalais (Tier C).",
+    lien: 'https://www.senegal24news.com/economie/dette-entreprises-etat-trois-ans-apurer-1400-milliards-fcfa/'
   }
 ];
