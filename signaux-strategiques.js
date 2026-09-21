@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-20',
+  derniereMiseAJour: '2026-09-21',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -496,5 +496,35 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-19',
     resume: "Le Premier ministre Ahmadou Al Aminou Lô a confirmé le 19 septembre 2026 un calendrier d'apurement sur trois ans de plus de 1 400 milliards FCFA d'arriérés dus par l'État aux entreprises (300 milliards FCFA d'ici fin 2026, puis deux tranches de 550 milliards en 2027 et 2028) ; le secteur du BTP, en première ligne de ces impayés avec chantiers à l'arrêt et investissements en berne, juge ce délai trop long et réclame un remboursement en deux ans — signal à suivre sur le climat de paiement des marchés publics sénégalais (Tier C).",
     lien: 'https://www.senegal24news.com/economie/dette-entreprises-etat-trois-ans-apurer-1400-milliards-fcfa/'
+  },
+  {
+    id: 'sig_senegal_dakar_olympic_city_closing_financier',
+    titre: "Sénégal : lancement du closing financier du projet Dakar Olympic City à Diamniadio (911 M€ de financement, groupe britannique Broughton Capital)",
+    bailleurOuSource: 'Broughton Capital Group (Royaume-Uni) / DOC S.A. (ALD & Partners, COREX)',
+    pays: 'Sénégal',
+    secteur: 'Bâtiment / aménagement urbain — complexe hôtelier, bureaux et résidentiel (487 072 m²)',
+    dateAnnonce: '2026-09-09',
+    resume: "Les partenaires du projet Dakar Olympic City (DOC S.A., porté par ALD & Partners et COREX) ont lancé le 9 septembre 2026 à Diamniadio le processus de closing financier du projet, adossé à un financement senior global de 911 millions d'euros (~598 milliards FCFA) apporté par le groupe britannique Broughton Capital Group ; cette étape ouvre la voie au premier décaissement et au démarrage imminent des travaux de construction (complexe hôtelier, bureaux et 660 logements sur 487 072 m²), déjà confiés au consortium Axiom-Dost Group.",
+    lien: 'https://www.dakaractu.com/DAKAR-OLYMPIC-CITY-Le-closing-financier-lance_a275835.html'
+  },
+  {
+    id: 'sig_senegal_kaolack_sport_city_18md',
+    titre: "Sénégal : le Conseil départemental de Kaolack présente le projet « Kaolack Sport City » (18 milliards FCFA — stade, arena, hôtel 5 étoiles)",
+    bailleurOuSource: 'Conseil départemental de Kaolack / État / Fédération Sénégalaise de Football / partenaires privés',
+    pays: 'Sénégal',
+    secteur: 'Bâtiment — infrastructures sportives, hôtelières et commerciales',
+    dateAnnonce: '2026-09-05',
+    resume: "Le président du Conseil départemental de Kaolack a présenté le 5 septembre 2026 le projet « Kaolack Sport City », un programme évalué à 18 milliards FCFA incluant la modernisation du stade Lamine Coura Guèye (nouvelle tribune), une arena de sports de combat avec centre de formation, une zone commerciale et un hôtel 5 étoiles ; financement prévu via l'État, la Fédération Sénégalaise de Football et des partenaires institutionnels et privés, première réalisation (tribune du stade) visée pour janvier 2027.",
+    lien: 'https://lesoleil.sn/actualites/economie/kaolack-lambitieux-projet-a-18-milliards-du-conseil-departemental/'
+  },
+  {
+    id: 'sig_senegal_autoroute_dts_pool_bailleurs_plfr2026',
+    titre: "Sénégal : le PLFR 2026 détaille le pool élargi de bailleurs de l'autoroute Dakar-Tivaouane-Saint-Louis (dont l'entrée de l'Arabie Saoudite)",
+    bailleurOuSource: 'Pool multi-bailleurs (BAD, BADEA, BID, BIDC, BOAD, Fonds koweïtien, Fonds saoudien, Fonds OPEP) / État du Sénégal',
+    pays: 'Sénégal',
+    secteur: 'Génie civil — autoroute (200 km) et ouvrages connexes',
+    dateAnnonce: '2026-09-18',
+    resume: "Le projet de loi de finances rectificative 2026, présenté le 18 septembre 2026 à l'Assemblée nationale, détaille le financement désormais bouclé de l'autoroute à péage Dakar-Tivaouane-Saint-Louis (200 km, ~800 M$ au total) par un pool élargi de bailleurs incluant BAD, BADEA, BID, BIDC, BOAD et des fonds koweïtien et saoudien ; plusieurs lots de construction sont déjà attribués tandis que d'autres sections restent à lancer — corridor à surveiller pour des lots de travaux connexes (raccordements, assainissement, péages).",
+    lien: 'https://www.topnews.sn/autoroute-dakar-tivaouane-saint-louis-le-financement-dun-montant-de-156-milliards-acquis/'
   }
 ];
