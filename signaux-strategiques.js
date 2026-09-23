@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-21',
+  derniereMiseAJour: '2026-09-23',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -526,5 +526,25 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-18',
     resume: "Le projet de loi de finances rectificative 2026, présenté le 18 septembre 2026 à l'Assemblée nationale, détaille le financement désormais bouclé de l'autoroute à péage Dakar-Tivaouane-Saint-Louis (200 km, ~800 M$ au total) par un pool élargi de bailleurs incluant BAD, BADEA, BID, BIDC, BOAD et des fonds koweïtien et saoudien ; plusieurs lots de construction sont déjà attribués tandis que d'autres sections restent à lancer — corridor à surveiller pour des lots de travaux connexes (raccordements, assainissement, péages).",
     lien: 'https://www.topnews.sn/autoroute-dakar-tivaouane-saint-louis-le-financement-dun-montant-de-156-milliards-acquis/'
+  },
+  {
+    id: 'sig_senegal_muctat_milan_logement_35mdeur',
+    titre: "Sénégal : le MUCTAT décroche 3,5 milliards d'euros d'investissements pour le logement et les villes nouvelles (convention signée à Milan)",
+    bailleurOuSource: 'MUCTAT (Ministère du Renouveau urbain, de l\'Habitat et du Cadre de vie) / IDA International Group / Fondation THESAN',
+    pays: 'Sénégal',
+    secteur: 'Bâtiment — logement, écoquartiers, villes nouvelles',
+    dateAnnonce: '2026-09-22',
+    resume: "À l'issue d'une mission européenne (Milan, Lille, Paris, 9-15 septembre 2026) conduite par le ministre Moussa Bala Fofana, le MUCTAT a signé à Milan une convention d'investissement de 3,5 milliards d'euros sur 7 ans avec IDA International Group et la Fondation THESAN pour le logement, les écoquartiers et les villes nouvelles ; un projet pilote de 50 millions d'euros doit être activé immédiatement, pour un objectif affiché de 110 000 logements sur environ 35 000 hectares.",
+    lien: 'https://lesoleil.sn/actualites/economie/senegal-le-muctat-en-europe-pour-attirer-des-milliards-deuros-dans-le-logement-et-les-villes-nouvelles/'
+  },
+  {
+    id: 'sig_ci_bm_open_days_portefeuille_25projets',
+    titre: "Côte d'Ivoire-Banque mondiale : portefeuille actif de plusieurs milliards $ pour 25 projets stratégiques, objectif de décaissement 32-40% en 2026-2027",
+    bailleurOuSource: "Groupe Banque mondiale (Open Days Abidjan) / Ministre de la Communication Amadou Coulibaly",
+    pays: "Côte d'Ivoire",
+    secteur: 'Génie civil / infrastructures — portefeuille multisectoriel (infrastructures, développement urbain, eau/assainissement, énergie)',
+    dateAnnonce: '2026-09-21',
+    resume: "Lors de l'ouverture de la 1ère édition des « Open Days » du Groupe Banque mondiale à Abidjan (21 septembre 2026), le gouvernement ivoirien a annoncé un portefeuille actif de 25 projets stratégiques financés par la Banque mondiale (fin exercice 2025-2026), avec un objectif de décaissement de 32 à 40% pour l'exercice 2026-2027, en lien avec le PND 2026-2030 ; le montant cumulé diffère selon les sources (5,3 Md$ chez Financial Afrik, 6,3 Md$ chez Alwihda Info/People's Daily) et reste à confirmer auprès de la source primaire Banque mondiale.",
+    lien: 'https://www.alwihdainfo.com/cote-divoire-banque-mondiale-un-portefeuille-actif-de-6-3-milliards-de-dollars-pour-25-projets-strategiques/'
   }
 ];
