@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-23',
+  derniereMiseAJour: '2026-09-24',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -546,5 +546,25 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-21',
     resume: "Lors de l'ouverture de la 1ère édition des « Open Days » du Groupe Banque mondiale à Abidjan (21 septembre 2026), le gouvernement ivoirien a annoncé un portefeuille actif de 25 projets stratégiques financés par la Banque mondiale (fin exercice 2025-2026), avec un objectif de décaissement de 32 à 40% pour l'exercice 2026-2027, en lien avec le PND 2026-2030 ; le montant cumulé diffère selon les sources (5,3 Md$ chez Financial Afrik, 6,3 Md$ chez Alwihda Info/People's Daily) et reste à confirmer auprès de la source primaire Banque mondiale.",
     lien: 'https://www.alwihdainfo.com/cote-divoire-banque-mondiale-un-portefeuille-actif-de-6-3-milliards-de-dollars-pour-25-projets-strategiques/'
+  },
+  {
+    id: 'sig_senegal_relance_psd_2000km_dubai',
+    titre: "Sénégal : relance du Programme Spécial de Désenclavement (PSD) — 2 000 km de routes, mission ministérielle à Dubaï",
+    bailleurOuSource: "Ministère des Infrastructures et des Transports terrestres et aériens (Déthié Fall) / groupe Innovo (ex-ASGC, Émirats Arabes Unis)",
+    pays: 'Sénégal',
+    secteur: 'Génie civil / VRD — désenclavement routier',
+    dateAnnonce: '2026-09-23',
+    resume: "Le ministre sénégalais des Infrastructures a conduit une délégation à Dubaï pour acter la relance du Programme Spécial de Désenclavement (PSD), portant sur la construction et la réhabilitation de 2 000 km de routes et voiries, avec l'objectif de mobiliser plus de 60 entreprises sénégalaises du BTP et de générer plus de 55 000 emplois directs et indirects ; démarrage des travaux visé pour février 2027, le schéma de financement devant être finalisé lors d'une réunion prévue prochainement à Londres — pas encore d'appel d'offres formel, mais pipeline à fort potentiel pour les entreprises locales de BTP.",
+    lien: 'https://www.seneweb.com/fr/news/Diplomatie/relance-du-programme-special-de-desenclavement-le-ministre-dethie-fall-en-mission-a-dubai_n_505010.html'
+  },
+  {
+    id: 'sig_mauritanie_maroc_rn4_nouakchott_nouadhibou',
+    titre: "Mauritanie-Maroc : accord-cadre pour la réhabilitation et l'élargissement de la route Nouakchott-Nouadhibou (RN4, 480 km)",
+    bailleurOuSource: "Royaume du Maroc (Ministère de l'Équipement et de l'Eau) / Mauritanie (Ministère de l'Équipement et des Transports) — coopération bilatérale",
+    pays: 'Mauritanie',
+    secteur: 'Génie civil — infrastructure routière',
+    dateAnnonce: '2026-09-21',
+    resume: "Le Maroc et la Mauritanie ont signé à Rabat un accord-cadre pour la réhabilitation et l'élargissement de la Route Nationale n°4 (480 km) reliant Nouakchott à Nouadhibou, prévoyant développement, entretien et renforcement de la coordination bilatérale sur ce corridor ; projet distinct des programmes Nouakchott phase 2 et Dakhlet Nouadhibou déjà suivis, financement non encore chiffré et pas encore mis en appel d'offres.",
+    lien: 'https://www.infomediaire.net/maroc-mauritanie-rehabilitation-route-nouakchott-nouadhibou/'
   }
 ];
