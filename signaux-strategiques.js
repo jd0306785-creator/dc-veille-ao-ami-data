@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-09-24',
+  derniereMiseAJour: '2026-10-07',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -566,5 +566,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-21',
     resume: "Le Maroc et la Mauritanie ont signé à Rabat un accord-cadre pour la réhabilitation et l'élargissement de la Route Nationale n°4 (480 km) reliant Nouakchott à Nouadhibou, prévoyant développement, entretien et renforcement de la coordination bilatérale sur ce corridor ; projet distinct des programmes Nouakchott phase 2 et Dakhlet Nouadhibou déjà suivis, financement non encore chiffré et pas encore mis en appel d'offres.",
     lien: 'https://www.infomediaire.net/maroc-mauritanie-rehabilitation-route-nouakchott-nouadhibou/'
+  },
+  {
+    id: 'sig_benin_aiib_730m_rolling_pipeline_infrastructure',
+    titre: "Bénin : l'AIIB signe un cadre pluriannuel renouvelable de 730 M$ pour accélérer les investissements en infrastructures (énergie, transport, résilience climatique)",
+    bailleurOuSource: 'Asian Infrastructure Investment Bank (AIIB) — accord avec le Gouvernement du Bénin',
+    pays: 'Bénin',
+    secteur: 'Infrastructures — énergie, transport (volet génie civil/bâtiment), résilience climatique',
+    dateAnnonce: '2026-09-24',
+    resume: "Le 24 septembre 2026 à Pékin, l'AIIB et le Bénin ont signé un cadre pluriannuel renouvelable (« rolling pipeline ») de 730 M$ structurant la coopération sur les investissements prioritaires en infrastructures, mobilisés notamment sur l'énergie, les transports et la résilience climatique ; ce cadre concrétise le protocole d'accord AIIB-Bénin déjà signalé et inclut un projet de mobilité urbaine durable de 200 M$ pour le Grand Nokoué, confirmant l'AIIB comme bailleur désormais pleinement actif dans la zone.",
+    lien: 'https://www.aiib.org/en/news-events/news/2026/aiib-and-benin-agree-usd730m-rolling-pipeline-advance-infrastructure-investment.html'
   }
 ];
