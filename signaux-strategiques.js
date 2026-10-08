@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-10-07',
+  derniereMiseAJour: '2026-10-08',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -576,5 +576,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-24',
     resume: "Le 24 septembre 2026 à Pékin, l'AIIB et le Bénin ont signé un cadre pluriannuel renouvelable (« rolling pipeline ») de 730 M$ structurant la coopération sur les investissements prioritaires en infrastructures, mobilisés notamment sur l'énergie, les transports et la résilience climatique ; ce cadre concrétise le protocole d'accord AIIB-Bénin déjà signalé et inclut un projet de mobilité urbaine durable de 200 M$ pour le Grand Nokoué, confirmant l'AIIB comme bailleur désormais pleinement actif dans la zone.",
     lien: 'https://www.aiib.org/en/news-events/news/2026/aiib-and-benin-agree-usd730m-rolling-pipeline-advance-infrastructure-investment.html'
+  },
+  {
+    id: 'sig_ci_bidc_15md_pnd_2026_2030',
+    titre: "Côte d'Ivoire : la BIDC (Banque d'investissement et de développement de la CEDEAO) annonce un engagement de 1,5 milliard de dollars pour le financement du PND 2026-2030",
+    bailleurOuSource: 'BIDC/EBID (Banque d\'investissement et de développement de la CEDEAO)',
+    pays: "Côte d'Ivoire",
+    secteur: 'Infrastructures / énergie / numérique / eau — multisectoriel (financement-cadre du PND)',
+    dateAnnonce: '2026-10-05',
+    resume: "Le vice-président ivoirien Tiémoko Meyliet Koné a reçu le 5 octobre 2026 au Palais présidentiel le président de la BIDC, Dr George Agyekum Donkor, à l'occasion de laquelle un engagement de 1,5 milliard de dollars de la banque a été annoncé pour le financement du Plan National de Développement 2026-2030, en complément d'environ 1,2 milliard de dollars déjà engagés par la BIDC en Côte d'Ivoire sur les infrastructures, l'énergie, le numérique, l'eau, la santé, l'éducation, l'industrie, le tourisme et l'appui aux PME ; annonce d'intention à ce stade, sans détail de projets individuels.",
+    lien: 'https://www.fratmat.info/article/2644981/economie/cooperation-multilaterale/cote-divoire---bidc-13-ans-de-cooperation-renforcee-et-15-milliard-de-dollars-annonces-pour-le-pnd-2026-2030'
   }
 ];
