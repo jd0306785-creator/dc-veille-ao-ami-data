@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-10-08',
+  derniereMiseAJour: '2026-10-09',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -586,5 +586,25 @@ const SIGNAUX = [
     dateAnnonce: '2026-10-05',
     resume: "Le vice-président ivoirien Tiémoko Meyliet Koné a reçu le 5 octobre 2026 au Palais présidentiel le président de la BIDC, Dr George Agyekum Donkor, à l'occasion de laquelle un engagement de 1,5 milliard de dollars de la banque a été annoncé pour le financement du Plan National de Développement 2026-2030, en complément d'environ 1,2 milliard de dollars déjà engagés par la BIDC en Côte d'Ivoire sur les infrastructures, l'énergie, le numérique, l'eau, la santé, l'éducation, l'industrie, le tourisme et l'appui aux PME ; annonce d'intention à ce stade, sans détail de projets individuels.",
     lien: 'https://www.fratmat.info/article/2644981/economie/cooperation-multilaterale/cote-divoire---bidc-13-ans-de-cooperation-renforcee-et-15-milliard-de-dollars-annonces-pour-le-pnd-2026-2030'
+  },
+  {
+    id: 'sig_senegal_electrification_table_ronde_998md',
+    titre: "Sénégal : table ronde de financement pour l'accès universel à l'électricité 2029 — 998 Md FCFA d'engagements annoncés (besoin estimé à 400 Md FCFA)",
+    bailleurOuSource: "Gouvernement du Sénégal (Ministère de l'Énergie et du Pétrole) / partenaires techniques et financiers + secteur privé",
+    pays: 'Sénégal',
+    secteur: 'Énergie — électrification rurale et extension de réseau (volet génie civil : lignes, postes, raccordements)',
+    dateAnnonce: '2026-10-06',
+    resume: "Le ministre de l'Énergie et du Pétrole, El Hadji Abdourahmane Diouf, a annoncé le 1er octobre 2026 un programme d'environ 400 Md FCFA pour électrifier les 6 471 localités encore non desservies du Sénégal d'ici 2029. Lors d'une table ronde de financement tenue le 6 octobre 2026, les engagements des partenaires techniques et financiers (181 Md FCFA) et du secteur privé (817 Md FCFA) ont atteint environ 998 Md FCFA, dépassant le besoin initial — signal d'un pipeline important de travaux de construction/extension de réseaux électriques (lignes, postes, raccordements) à venir sur l'ensemble du territoire.",
+    lien: 'https://lesoleil.sn/actualites/economie/acces-universel-a-lelectricite-998-milliards-de-fcfa-dengagements-pour-lobjectif-2029/'
+  },
+  {
+    id: 'sig_senegal_fhs_adhi_rwanda_1000_logements_verts',
+    titre: "Sénégal : le Fonds de l'Habitat Social (FHS) et le groupe rwandais ADHI International signent un partenariat de 39 Md FCFA pour 1 000 logements pilotes certifiés EDGE",
+    bailleurOuSource: 'Fonds de l\'Habitat Social (FHS, Sénégal) / ADHI International (Rwanda)',
+    pays: 'Sénégal',
+    secteur: 'Bâtiment — logement social/abordable, construction certifiée EDGE (basse consommation énergétique)',
+    dateAnnonce: '2026-06-09',
+    resume: "En marge des réunions annuelles de Shelter Afrique Development Bank à Rabat, le FHS et le groupe rwandais ADHI International ont signé le 9 juin 2026 un protocole d'accord pour un projet pilote de 1 000 logements intégrés, abordables et certifiés EDGE, pour un investissement estimé à 39 Md FCFA (~67 M$). Le FHS apporte le financement structuré, ADHI assure la conception et la construction du programme ; projet présenté comme un démonstrateur avant un passage à l'échelle de plusieurs milliers d'unités dans les années suivantes.",
+    lien: 'https://lesoleil.sn/actualites/economie/habitat-social-le-fhs-et-adhi-international-sallient-pour-un-projet-de-1-000-logements-verts/'
   }
 ];
