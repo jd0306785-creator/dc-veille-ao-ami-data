@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-10-09',
+  derniereMiseAJour: '2026-10-10',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -606,5 +606,25 @@ const SIGNAUX = [
     dateAnnonce: '2026-06-09',
     resume: "En marge des réunions annuelles de Shelter Afrique Development Bank à Rabat, le FHS et le groupe rwandais ADHI International ont signé le 9 juin 2026 un protocole d'accord pour un projet pilote de 1 000 logements intégrés, abordables et certifiés EDGE, pour un investissement estimé à 39 Md FCFA (~67 M$). Le FHS apporte le financement structuré, ADHI assure la conception et la construction du programme ; projet présenté comme un démonstrateur avant un passage à l'échelle de plusieurs milliers d'unités dans les années suivantes.",
     lien: 'https://lesoleil.sn/actualites/economie/habitat-social-le-fhs-et-adhi-international-sallient-pour-un-projet-de-1-000-logements-verts/'
+  },
+  {
+    id: 'sig_senegal_investisseurs_italiens_ports_bargny_ndayane_nikine',
+    titre: "Sénégal : les opportunités portuaires (Bargny-Sendou, Ndayane, futur port de Nikine) présentées à une délégation d'investisseurs italiens",
+    bailleurOuSource: "Mission économique italienne (agence de commerce extérieur et ambassade d'Italie à Dakar) / Ministère sénégalais des Infrastructures",
+    pays: 'Sénégal',
+    secteur: 'Infrastructures portuaires — génie civil, VRD associée',
+    dateAnnonce: '2026-10-01',
+    resume: "Le ministre des Infrastructures Déthié Fall a présenté à une délégation d'investisseurs italiens les opportunités portuaires du Sénégal : le port minéralier et vraquier de Bargny-Sendou (ouverture désormais visée au plus tard en juin 2027), le port de Ndayane (mise en service visée octobre 2028) et le futur port en eau profonde de Nikine ; la mission italienne couvre aussi les secteurs de la construction, du transport, de l'énergie et de l'eau/assainissement.",
+    lien: 'https://aps.sn/infrastructures-portuaires-les-opportunites-du-senegal-presentees-a-des-investisseurs-italiens/'
+  },
+  {
+    id: 'sig_benin_chantiers_ouidah_tori_djougou_ouake_pistes_rurales',
+    titre: "Bénin : le Conseil des ministres autorise la réhabilitation des axes Ouidah-Tori (17 km) et Djougou-Ouaké-frontière du Togo (37 km), et un programme de réfection de 18 000 km de pistes rurales",
+    bailleurOuSource: 'Gouvernement du Bénin (Conseil des ministres)',
+    pays: 'Bénin',
+    secteur: 'Génie civil / VRD — infrastructures routières et pistes rurales',
+    dateAnnonce: '2026-10-07',
+    resume: "Le Conseil des ministres béninois du 7 octobre 2026 a autorisé la réhabilitation des axes routiers Ouidah-Tori (17 km) et Djougou-Ouaké-frontière du Togo (37 km), ainsi qu'un programme de réfection d'environ 18 000 km de pistes rurales pour la campagne 2026-2027 ; aucun bailleur ni montant précis n'est communiqué à ce stade — signal amont à confirmer par de futurs AO.",
+    lien: 'https://www.agenceecofin.com/actualites-infrastructures/0910-142285-le-benin-annonce-de-nouveaux-chantiers-pour-renforcer-le-reseau-routier-et-les-grands-corridors'
   }
 ];
