@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-10-10',
+  derniereMiseAJour: '2026-10-13',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -626,5 +626,45 @@ const SIGNAUX = [
     dateAnnonce: '2026-10-07',
     resume: "Le Conseil des ministres béninois du 7 octobre 2026 a autorisé la réhabilitation des axes routiers Ouidah-Tori (17 km) et Djougou-Ouaké-frontière du Togo (37 km), ainsi qu'un programme de réfection d'environ 18 000 km de pistes rurales pour la campagne 2026-2027 ; aucun bailleur ni montant précis n'est communiqué à ce stade — signal amont à confirmer par de futurs AO.",
     lien: 'https://www.agenceecofin.com/actualites-infrastructures/0910-142285-le-benin-annonce-de-nouveaux-chantiers-pour-renforcer-le-reseau-routier-et-les-grands-corridors'
+  },
+  {
+    id: 'sig_ci_boad_420_logements_yamoussoukro',
+    titre: "Côte d'Ivoire : la BOAD finance la construction de 420 logements sociaux à Yamoussoukro (13,5 Md FCFA)",
+    bailleurOuSource: 'BOAD (Banque Ouest Africaine de Développement)',
+    pays: "Côte d'Ivoire",
+    secteur: 'Bâtiment — logement social (21 immeubles R+4, gros œuvre, VRD associée)',
+    dateAnnonce: '2026-10-02',
+    resume: "Le Premier ministre ivoirien Robert Beugré Mambé a donné le coup d'envoi des travaux de 420 logements sociaux et économiques (21 immeubles R+4, 210 appartements 3 pièces et 210 de 4 pièces) à Morofé Résidentiel, Yamoussoukro, pour plus de 13,5 Md FCFA financés par la BOAD, dans le cadre d'un engagement plus large de la banque de 145 Md FCFA pour 4 300 logements au titre du programme national d'urgence de 25 000 logements.",
+    lien: 'https://www.koaci.com/article/2026/10/02/cote-divoire/politique/cote-divoire-yamoussoukro-beugre-mambe-donne-le-coup-denvoi-aux-420-logements-sociaux-la-course-a-la-propriete-est-ouverte_201192.html'
+  },
+  {
+    id: 'sig_benin_500m_eur_financement_fad_bid_2026',
+    titre: "Bénin : mobilisation de 500 M€ sur les marchés internationaux avec garantie du Fonds Africain de Développement et assurance seconde perte de la BID",
+    bailleurOuSource: 'Fonds Africain de Développement (groupe BAD) / Banque Islamique de Développement (assurance)',
+    pays: 'Bénin',
+    secteur: 'Financement budgétaire multisectoriel incluant les infrastructures',
+    dateAnnonce: '2026-09-18',
+    resume: "Le Bénin a conclu un financement bancaire international de 500 M€ (~328 Md FCFA, maturité 12 ans), adossé à une garantie partielle de crédit du Fonds Africain de Développement et une assurance seconde perte de la filiale assurance du groupe BID, destiné à des investissements prioritaires incluant les infrastructures ; deuxième montage de ce type après une opération similaire en 2023.",
+    lien: 'https://www.financialafrik.com/2026/09/30/le-benin-obtient-un-financement-bancaire-international-de-500-millions-deuros/'
+  },
+  {
+    id: 'sig_gambie_bm_52m_transport_energie',
+    titre: "Gambie : la Banque mondiale approuve 52,6 M$ pour les infrastructures de transport et d'énergie",
+    bailleurOuSource: 'Banque Mondiale',
+    pays: 'Gambie',
+    secteur: "Génie civil / VRD — routes rurales et urbaines climato-résilientes (~60 km) et électrification",
+    dateAnnonce: '2026-09-08',
+    resume: "La Banque mondiale a approuvé un financement de 52,6 M$ pour améliorer l'accès aux infrastructures de transport et d'énergie en Gambie, incluant l'aménagement d'environ 60 km de routes rurales et urbaines climato-résilientes ; signal distinct des programmes « Connect Gambia » (budget national) et SFD Grand Banjul déjà suivis, bailleur et enveloppe différents.",
+    lien: 'https://thepoint.gm/africa/gambia/headlines/wb-approves-52-6m-to-boost-gambias-transport-energy-infrastructure'
+  },
+  {
+    id: 'sig_gb_boad_route_safim_jugudul',
+    titre: "Guinée-Bissau (zone à risque sécuritaire) : la BOAD approuve une première tranche de 30 Md FCFA pour la route Safim-Jugudul (RN1)",
+    bailleurOuSource: 'BOAD (Banque Ouest Africaine de Développement)',
+    pays: 'Guinée-Bissau (zone à risque sécuritaire)',
+    secteur: 'Génie civil — infrastructure routière (bitumage RN1)',
+    dateAnnonce: '2026-09-24',
+    resume: "Lors de sa 152e session à Lomé, le Conseil d'administration de la BOAD a approuvé 157,5 Md FCFA de nouvelles opérations, dont une première tranche de 30 Md FCFA pour l'aménagement et le bitumage de l'axe Safim-Jugudul (RN1) en Guinée-Bissau, pays hors zone prioritaire DC — signalé à titre informatif.",
+    lien: 'https://www.financialafrik.com/2026/09/24/boad-1575-milliards-fcfa-de-nouveaux-financements-approuves-le-portefeuille-global-atteint-10-9916-milliards-fcfa/'
   }
 ];

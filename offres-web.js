@@ -2,7 +2,7 @@
 // Fichier volontairement allégé : uniquement des faits publics (titre, client, pays,
 // type, tier, lien, échéance). Aucune analyse stratégique interne DC n'est publiée ici.
 const OFFRES_WEB_META = {
-  derniereMiseAJour: '2026-10-10',
+  derniereMiseAJour: '2026-10-13',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -62,5 +62,19 @@ const OFFRES_WEB = [
     source: 'Pi Business Info — avis d\'appels d\'offres',
     lien: 'https://www.pibusinessinfo.com/avis-dappels-doffres/',
     deadline: '2026-10-15'
+  },
+  {
+    id: 'unicef_togo_jardins_enfants_kara_savanes_maritime_2026',
+    titre: "Construction de six (6) jardins d'enfants à deux salles de classe avec dortoir, bureau-magasin et bloc sanitaire intégré — régions de la Kara, des Savanes et Maritime (réf. LRFPS-2026-9206456)",
+    client: 'UNICEF Togo',
+    type: 'AO',
+    secteur: 'Bâtiment — construction scolaire/petite enfance (gros œuvre, second œuvre, sanitaire)',
+    pays: 'Togo (régions Kara, Savanes, Maritime)',
+    tier: 'A',
+    quickWin: true,
+    quickWinNote: "Bâtiments scolaires simples et de courte durée, cœur de métier bâtiment de DC ; points de vigilance : 6 sites répartis sur 3 régions (logistique multi-site) et présence opérationnelle au Togo à confirmer",
+    source: 'UNGM (United Nations Global Marketplace)',
+    lien: 'https://www.ungm.org/Public/Notice/316494',
+    deadline: '2026-10-21'
   }
 ];
