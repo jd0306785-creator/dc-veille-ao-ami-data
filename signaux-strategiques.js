@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-10-13',
+  derniereMiseAJour: '2026-10-14',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -656,6 +656,16 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-08',
     resume: "La Banque mondiale a approuvé un financement de 52,6 M$ pour améliorer l'accès aux infrastructures de transport et d'énergie en Gambie, incluant l'aménagement d'environ 60 km de routes rurales et urbaines climato-résilientes ; signal distinct des programmes « Connect Gambia » (budget national) et SFD Grand Banjul déjà suivis, bailleur et enveloppe différents.",
     lien: 'https://thepoint.gm/africa/gambia/headlines/wb-approves-52-6m-to-boost-gambias-transport-energy-infrastructure'
+  },
+  {
+    id: 'sig_benin_japon_echangeur_vedoko_phase2',
+    titre: "Bénin : le Japon accorde 10,8 milliards FCFA supplémentaires pour la phase 2 de l'échangeur de Vêdoko (Cotonou)",
+    bailleurOuSource: 'Japon (coopération bilatérale / JICA) — gouvernement du Bénin',
+    pays: 'Bénin',
+    secteur: "Génie civil — ouvrage d'art urbain (échangeur / passage supérieur)",
+    dateAnnonce: '2026-10-09',
+    resume: "Le Bénin et le Japon ont signé le 9 octobre 2026 un accord de don de 10,8 milliards FCFA pour financer la deuxième phase de l'échangeur de Vêdoko à Cotonou, dédiée à la construction du passage supérieur dans le sens Est-Ouest et aux aménagements connexes ; ce nouvel apport porte le financement japonais cumulé du projet à 26,228 milliards FCFA. La première phase est déjà en chantier (lancement officiel en octobre 2025) ; aucun appel d'offres de travaux pour la phase 2 n'a encore été identifié à ce stade.",
+    lien: 'https://www.gouv.bj/article/3698/construction-echangeur-vedoko-japon-accorde-nouveau-milliards-fcfa-benin/'
   },
   {
     id: 'sig_gb_boad_route_safim_jugudul',
