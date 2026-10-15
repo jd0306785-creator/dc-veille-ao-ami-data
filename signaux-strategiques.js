@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-10-14',
+  derniereMiseAJour: '2026-10-15',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -676,5 +676,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-24',
     resume: "Lors de sa 152e session à Lomé, le Conseil d'administration de la BOAD a approuvé 157,5 Md FCFA de nouvelles opérations, dont une première tranche de 30 Md FCFA pour l'aménagement et le bitumage de l'axe Safim-Jugudul (RN1) en Guinée-Bissau, pays hors zone prioritaire DC — signalé à titre informatif.",
     lien: 'https://www.financialafrik.com/2026/09/24/boad-1575-milliards-fcfa-de-nouveaux-financements-approuves-le-portefeuille-global-atteint-10-9916-milliards-fcfa/'
+  },
+  {
+    id: 'sig_senegal_fonds_national_assainissement_inondations_oct2026',
+    titre: "Sénégal : suite aux inondations d'octobre 2026, le Conseil des ministres ordonne un audit de la gouvernance de l'assainissement et envisage un Fonds national de l'Assainissement",
+    bailleurOuSource: 'Présidence de la République du Sénégal (Conseil des ministres)',
+    pays: 'Sénégal',
+    secteur: "VRD — assainissement, drainage des eaux pluviales, protection civile",
+    dateAnnonce: '2026-10-13',
+    resume: "Lors d'une session exceptionnelle du Conseil des ministres le 13 octobre 2026, consécutive à de fortes inondations notamment à Dakar, le président Bassirou Diomaye Faye a ordonné un audit technique rapide de la gouvernance des systèmes d'assainissement et chargé le gouvernement d'étudier la création d'un Fonds national de l'Assainissement alimenté par des ressources durables ; le Premier ministre doit aussi finaliser avant fin novembre 2026 la Stratégie nationale de Protection civile et de Gestion des Risques de Catastrophes et réviser la stratégie de prévention des inondations — signal amont sur un possible renforcement du financement de travaux d'assainissement et de drainage, sujet encore à l'étude et sans décision ni montant arrêtés à ce stade.",
+    lien: 'https://www.rts.sn/actualite/detail/presidence/le-communique-du-conseil-des-ministres-du-mardi-13-octobre-2026'
   }
 ];
