@@ -2,7 +2,7 @@
 // Fichier volontairement allégé : uniquement des faits publics (titre, client, pays,
 // type, tier, lien, échéance). Aucune analyse stratégique interne DC n'est publiée ici.
 const OFFRES_WEB_META = {
-  derniereMiseAJour: '2026-10-13',
+  derniereMiseAJour: '2026-10-16',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -50,20 +50,6 @@ const OFFRES_WEB = [
     deadline: '2026-10-23'
   },
   {
-    id: 'sones_reseau_eau_potable_kaolack_2026',
-    titre: "Travaux de restructuration et de renforcement du réseau d'eau potable de la ville de Kaolack",
-    client: 'SONES (Société Nationale des Eaux du Sénégal)',
-    type: 'AO',
-    secteur: 'VRD — adduction d\'eau potable',
-    pays: 'Sénégal (Kaolack)',
-    tier: 'B',
-    quickWin: true,
-    quickWinNote: "Travaux de réseau d'adduction d'eau potable en décomptes mensuels, lot unique probable sur le périmètre de Kaolack, cœur de métier VRD de DC ; délai de dépôt très court (5 jours) à surveiller",
-    source: 'Pi Business Info — avis d\'appels d\'offres',
-    lien: 'https://www.pibusinessinfo.com/avis-dappels-doffres/',
-    deadline: '2026-10-15'
-  },
-  {
     id: 'unicef_togo_jardins_enfants_kara_savanes_maritime_2026',
     titre: "Construction de six (6) jardins d'enfants à deux salles de classe avec dortoir, bureau-magasin et bloc sanitaire intégré — régions de la Kara, des Savanes et Maritime (réf. LRFPS-2026-9206456)",
     client: 'UNICEF Togo',
@@ -76,5 +62,33 @@ const OFFRES_WEB = [
     source: 'UNGM (United Nations Global Marketplace)',
     lien: 'https://www.ungm.org/Public/Notice/316494',
     deadline: '2026-10-21'
+  },
+  {
+    id: 'unicef_togo_laboratoire_salle_informatique_4lycees_2026',
+    titre: "Travaux de construction d'un laboratoire et d'une salle informatique dans quatre (4) lycées — régions de la Kara et des Savanes (réf. LRFPS-2026-9206335)",
+    client: 'UNICEF Togo',
+    type: 'AO',
+    secteur: 'Bâtiment — construction scolaire (gros œuvre, second œuvre)',
+    pays: 'Togo (régions Kara, Savanes)',
+    tier: 'A',
+    quickWin: true,
+    quickWinNote: 'Bâtiments scolaires simples et de courte durée, cœur de métier bâtiment de DC ; point de vigilance : 4 sites répartis sur 2 régions (logistique multi-site) et présence opérationnelle au Togo à confirmer',
+    source: 'UNGM (United Nations Global Marketplace)',
+    lien: 'https://www.ungm.org/Public/Notice/316485',
+    deadline: '2026-10-21'
+  },
+  {
+    id: 'unicef_togo_9salles_classe_epp_savanes_2026',
+    titre: "Travaux de construction de neuf (9) salles de classe, d'un bureau et d'un magasin dans une école primaire (EPP) — région des Savanes (réf. LRFPS-2026-9206501)",
+    client: 'UNICEF Togo',
+    type: 'AO',
+    secteur: 'Bâtiment — construction scolaire primaire (gros œuvre, second œuvre)',
+    pays: 'Togo (région Savanes)',
+    tier: 'A',
+    quickWin: true,
+    quickWinNote: "Site unique, bâtiment scolaire simple de courte durée, cœur de métier bâtiment de DC ; point de vigilance : présence opérationnelle au Togo à confirmer",
+    source: 'UNGM (United Nations Global Marketplace)',
+    lien: 'https://www.ungm.org/Public/Notice/317129',
+    deadline: '2026-10-26'
   }
 ];

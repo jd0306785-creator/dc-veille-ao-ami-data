@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-10-15',
+  derniereMiseAJour: '2026-10-16',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -686,5 +686,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-10-13',
     resume: "Lors d'une session exceptionnelle du Conseil des ministres le 13 octobre 2026, consécutive à de fortes inondations notamment à Dakar, le président Bassirou Diomaye Faye a ordonné un audit technique rapide de la gouvernance des systèmes d'assainissement et chargé le gouvernement d'étudier la création d'un Fonds national de l'Assainissement alimenté par des ressources durables ; le Premier ministre doit aussi finaliser avant fin novembre 2026 la Stratégie nationale de Protection civile et de Gestion des Risques de Catastrophes et réviser la stratégie de prévention des inondations — signal amont sur un possible renforcement du financement de travaux d'assainissement et de drainage, sujet encore à l'étude et sans décision ni montant arrêtés à ce stade.",
     lien: 'https://www.rts.sn/actualite/detail/presidence/le-communique-du-conseil-des-ministres-du-mardi-13-octobre-2026'
+  },
+  {
+    id: 'sig_benin_bid_badea_249md_route_godomey_ouidah_hillacondji',
+    titre: "Bénin : la BID et la BADEA accordent 249,5 Md FCFA, dont 201,3 Md FCFA pour la mise à 2x2 voies de la route Godomey-Ouidah-Hillacondji",
+    bailleurOuSource: 'Banque Islamique de Développement (BID/IsDB) et BADEA',
+    pays: 'Bénin',
+    secteur: "Génie civil — infrastructure routière (corridor Abidjan-Lagos, mise à 2x2 voies ~94 km)",
+    dateAnnonce: '2026-10-12',
+    resume: "En marge des Assemblées annuelles FMI/Banque mondiale à Bangkok, le Bénin a signé le 12-13 octobre 2026 trois accords de financement avec la BID et la BADEA totalisant 249,5 Md FCFA, dont 201,3 Md FCFA de la BID pour la mise à 2x2 voies de la route Godomey-Ouidah-Hillacondji (~94 km, répartie en lots Godomey-Ouidah, Guézin-Comè et Grand-Popo-Hillacondji) sur le corridor Abidjan-Lagos ; les deux autres accords financent l'agriculture durable et l'extension du réseau électrique. Sur ce même axe, la BOAD a déjà engagé 60 Md FCFA (section Ouidah-Guézin) et la BAD instruit 111,9 Md FCFA (section Comè-Grand-Popo), portant le financement cumulé de l'axe à 373,2 Md FCFA ; accords signés, travaux à suivre.",
+    lien: 'https://www.afrik.com/a-bangkok-le-benin-signe-trois-accords-de-financement-avec-la-bid-et-la-badea'
   }
 ];
