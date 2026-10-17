@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-10-16',
+  derniereMiseAJour: '2026-10-17',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -696,5 +696,25 @@ const SIGNAUX = [
     dateAnnonce: '2026-10-12',
     resume: "En marge des Assemblées annuelles FMI/Banque mondiale à Bangkok, le Bénin a signé le 12-13 octobre 2026 trois accords de financement avec la BID et la BADEA totalisant 249,5 Md FCFA, dont 201,3 Md FCFA de la BID pour la mise à 2x2 voies de la route Godomey-Ouidah-Hillacondji (~94 km, répartie en lots Godomey-Ouidah, Guézin-Comè et Grand-Popo-Hillacondji) sur le corridor Abidjan-Lagos ; les deux autres accords financent l'agriculture durable et l'extension du réseau électrique. Sur ce même axe, la BOAD a déjà engagé 60 Md FCFA (section Ouidah-Guézin) et la BAD instruit 111,9 Md FCFA (section Comè-Grand-Popo), portant le financement cumulé de l'axe à 373,2 Md FCFA ; accords signés, travaux à suivre.",
     lien: 'https://www.afrik.com/a-bangkok-le-benin-signe-trois-accords-de-financement-avec-la-bid-et-la-badea'
+  },
+  {
+    id: 'sig_benin_afd_ue_bpifrance_paris_oct2026_peder',
+    titre: "Bénin : 65,5 Md FCFA mobilisés à Paris (AFD, UE, Bpifrance) dont 52,1 Md FCFA pour l'extension du réseau électrique (projet PEDER+)",
+    bailleurOuSource: "Agence Française de Développement (AFD), Union Européenne, Bpifrance",
+    pays: 'Bénin',
+    secteur: "Énergie — extension/modernisation du réseau électrique (ouvrages associés), agriculture",
+    dateAnnonce: '2026-10-05',
+    resume: "En marge d'une rencontre entre le président Romuald Wadagni et le président Emmanuel Macron à l'Élysée le 5 octobre 2026, le Bénin a mobilisé environ 65,5 Md FCFA (~100 M€) : deux conventions AFD totalisant 61,9 Md FCFA (dont un prêt souverain de 32,8 Md FCFA et une subvention UE de 19,3 Md FCFA pour le projet PEDER+ visant plus de 120 000 nouveaux raccordements électriques dans 750 localités de 15 communes des départements du Mono, du Couffo et du Borgou, et 9,8 Md FCFA pour l'aquaculture/aviculture), ainsi qu'une lettre de mandat Bpifrance de 3,54 Md FCFA préparant le financement d'un laboratoire national d'expertise ADN.",
+    lien: 'https://www.sikafinance.com/marches/benin-pres-de-100-millions-deuros-mobilises-a-paris-pour-lelectricite-lagriculture-et-la-sante_64745'
+  },
+  {
+    id: 'sig_togo_boad_152e_session_irrigation_stockage_petrolier',
+    titre: "Togo : la BOAD approuve 82 Md FCFA pour l'aménagement de 530 ha de périmètres irrigués et l'extension du stockage pétrolier à Lomé",
+    bailleurOuSource: 'BOAD',
+    pays: 'Togo',
+    secteur: "Génie civil / VRD — aménagement hydro-agricole (irrigation), ouvrages de stockage pétrolier",
+    dateAnnonce: '2026-09-24',
+    resume: "Lors de sa 152e session tenue à Lomé le 24 septembre 2026, le conseil d'administration de la BOAD a approuvé pour le Togo deux opérations totalisant 82 Md FCFA sur un paquet global de 157,5 Md FCFA pour l'UEMOA : 45 Md FCFA pour la phase 3 du programme d'appui à la mécanisation agricole et à l'irrigation (aménagement de 530 hectares, objectif de production additionnelle d'au moins 100 000 tonnes de riz/an) et 37 Md FCFA pour l'extension des capacités de stockage de produits pétroliers à Lomé.",
+    lien: 'https://www.financialafrik.com/2026/09/24/boad-1575-milliards-fcfa-de-nouveaux-financements-approuves-le-portefeuille-global-atteint-10-9916-milliards-fcfa/'
   }
 ];
