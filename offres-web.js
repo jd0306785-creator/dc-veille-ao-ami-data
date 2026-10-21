@@ -8,30 +8,16 @@ const OFFRES_WEB_META = {
 
 const OFFRES_WEB = [
   {
-    id: 'sen_agropole_centre_8plateformes_3lots_2026',
-    titre: "Travaux de construction des huit (08) plateformes départementales de l'Agropole Centre, réparties en 3 lots : Lot 1 Kaffrine (Maka Yopp, Malem Hodar, Keur Mboucki), Lot 2 Fatick (Djilor, Mbar), Lot 3 Diourbel (Kael, Ndoulo, Tocky Gare)",
-    client: "Ministère de l'Industrie et du Commerce (Projet Zone de Transformation Agro-industrielle du Centre — SEN 1055)",
-    type: 'AO',
-    secteur: 'Bâtiment — construction de plateformes de stockage/collecte agro-industrielles (gros œuvre, second œuvre, VRD de site)',
-    pays: 'Sénégal (Kaffrine, Fatick, Diourbel)',
-    tier: 'A',
-    quickWin: true,
-    quickWinNote: "3 lots indépendants (possibilité de soumissionner sur un seul lot), bâtiments de type entrepôt/plateforme standard sans complexité technique particulière, financement Banque Islamique de Développement (ressources propres bailleur)",
-    source: 'Banque Islamique de Développement (IsDB) — avis de passation de marché',
-    lien: 'https://www.isdb.org/project-procurement/fr/node/4304',
-    deadline: '2026-11-03'
-  },
-  {
     id: 'sen_promoged_bambilor_cet_route_acces_2026',
-    titre: "Conception et construction du Centre d'Enfouissement Technique (CET) de Bambilor et de sa route d'accès (Projet PROMOGED, réf. SN-PROMOGED-541271-CW-RFB)",
+    titre: "Conception et construction du Centre d'Enfouissement Technique (CET) de Bambilor et de sa route d'accès, en 2 lots (Projet PROMOGED, réf. SN-PROMOGED-541271-CW-RFB)",
     client: "Unité de Coordination de la Gestion des déchets solides (UCG) — Ministère de l'Environnement et de la Transition Écologique",
     type: 'AO',
     secteur: "Génie civil / VRD — conception-construction d'un ouvrage d'enfouissement technique et de sa voirie d'accès",
     pays: 'Sénégal (Bambilor, Rufisque)',
     tier: 'A',
     quickWin: false,
-    quickWinNote: "Lot unique mais marché en conception-construction avec exigences techniques spécialisées (étanchéité/géomembrane, gestion de déchets) hors cœur de métier standard DC — pertinent surtout en groupement avec un spécialiste déchets",
-    source: 'PROMOGED / Banque Mondiale — relayé par AllBusiness Africa',
+    quickWinNote: "Marché en conception-construction avec exigences techniques spécialisées (étanchéité/géomembrane, gestion de déchets) hors cœur de métier standard DC — pertinent surtout en groupement avec un spécialiste déchets",
+    source: 'PROMOGED / Banque Mondiale — relayé par GlobalTenders, Business-Senegal',
     lien: 'https://allbusiness.africa/tenders/conception-et-construction-du-centre-denfouissement-technique-de-bambilor-et-de-sa-route-dacces',
     deadline: '2026-11-03'
   },
