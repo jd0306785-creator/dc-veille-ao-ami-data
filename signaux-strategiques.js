@@ -2,11 +2,21 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-10-17',
+  derniereMiseAJour: '2026-10-21',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
 const SIGNAUX = [
+  {
+    id: 'sig_ci_ofid_fonds_opep_500m_pnd_2026_2030',
+    titre: "Côte d'Ivoire : le Fonds OPEP pour le développement international (OFID) s'engage jusqu'à 500 millions USD pour le PND 2026-2030",
+    bailleurOuSource: 'Fonds OPEP pour le développement international (OFID)',
+    pays: "Côte d'Ivoire",
+    secteur: 'Infrastructures multisectorielles — énergie, eau/assainissement, transport, santé (résilience climatique)',
+    dateAnnonce: '2026-10-16',
+    resume: "Le président de l'OFID et le ministre ivoirien du Plan et du Développement ont signé le 16 octobre 2026 à Bangkok, en marge des Assemblées annuelles FMI/Banque mondiale, un accord-cadre de partenariat pays prévoyant jusqu'à 500 millions USD (~297 milliards FCFA) de financements sur 2026-2029 pour des projets prioritaires du Plan national de développement 2026-2030, ciblant les infrastructures résilientes au changement climatique (énergie, eau, assainissement, transport, santé), avec en complément une enveloppe de dons pouvant atteindre 3 millions USD pour des études de faisabilité.",
+    lien: 'https://www.sikafinance.com/marches/cote-divoire-le-fonds-de-lopep-prevoit-jusqua-500-millions-de-dollars-de-financements-sur-2026-2029_65013'
+  },
   {
     id: 'sig_mauritanie_nouakchott_phase2_ponts_voirie_ecoles',
     titre: "Mauritanie : lancement de la phase 2 du programme de développement de Nouakchott (11,59 milliards MRU — ponts, voirie, écoles)",
