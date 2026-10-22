@@ -2,11 +2,21 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-10-21',
+  derniereMiseAJour: '2026-10-22',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
 const SIGNAUX = [
+  {
+    id: 'sig_senegal_plf2027_grands_chantiers_ziguinchor_bargny_ndayane',
+    titre: "Sénégal : le projet de loi de finances 2027 annonce un second pont de Ziguinchor, la route Bargny-Sendou-Ndayane, un programme national d'éclairage public et 12 nouveaux lycées",
+    bailleurOuSource: "Gouvernement du Sénégal (Ministère de l'Économie, des Finances et du Plan)",
+    pays: 'Sénégal',
+    secteur: 'Bâtiment / VRD / génie civil — ouvrage d\'art, voirie, éclairage public, construction scolaire',
+    dateAnnonce: '2026-10-20',
+    resume: "Le projet de loi de finances initiale 2027, présenté à la mi-octobre 2026, prévoit notamment une enveloppe de 27,3 Md FCFA pour un second pont de Ziguinchor (plus 5 Md FCFA pour la réhabilitation du pont Émile Badiane), 5 Md FCFA pour la route Bargny-Sendou-Ndayane, 25 Md FCFA pour le programme national d'éclairage public, ainsi que la construction de 12 lycées « Lynaqe » (nation-armée) — montants présentés comme indicatifs par la presse économique, à confirmer dans le texte définitif du budget.",
+    lien: 'https://lesoleil.sn/actualites/economie/plusieurs-projets-structurants-annonces-pour-2027/'
+  },
   {
     id: 'sig_ci_ofid_fonds_opep_500m_pnd_2026_2030',
     titre: "Côte d'Ivoire : le Fonds OPEP pour le développement international (OFID) s'engage jusqu'à 500 millions USD pour le PND 2026-2030",
