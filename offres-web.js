@@ -2,7 +2,7 @@
 // Fichier volontairement allégé : uniquement des faits publics (titre, client, pays,
 // type, tier, lien, échéance). Aucune analyse stratégique interne DC n'est publiée ici.
 const OFFRES_WEB_META = {
-  derniereMiseAJour: '2026-10-22',
+  derniereMiseAJour: '2026-10-23',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -20,20 +20,6 @@ const OFFRES_WEB = [
     source: 'PROMOGED / Banque Mondiale — relayé par AllBusiness Africa',
     lien: 'https://allbusiness.africa/tenders/conception-et-construction-du-centre-denfouissement-technique-de-bambilor-et-de-sa-route-dacces',
     deadline: '2026-11-03'
-  },
-  {
-    id: 'ageroute_entretien_routes_revetues_8regions_2026',
-    titre: "Travaux d'entretien des routes revêtues dans les régions de Dakar, Thiès, Saint-Louis, Diourbel, Louga, Matam, Tambacounda et Kédougou (AO n° D/1828/A2)",
-    client: 'AGEROUTE Sénégal',
-    type: 'AO',
-    secteur: 'VRD — entretien routier (routes revêtues)',
-    pays: 'Sénégal (8 régions)',
-    tier: 'B',
-    quickWin: true,
-    quickWinNote: "Entretien routier = décomptes mensuels usuels, durée généralement courte (souvent 12 mois sur ce type de marché AGEROUTE), cœur de métier VRD de DC",
-    source: 'AGEROUTE Sénégal — avis d\'appels d\'offres de travaux',
-    lien: 'https://ageroute.sn/avis-dappel-doffres-de-travaux/',
-    deadline: '2026-10-22'
   },
   {
     id: 'sonacos_demolition_terrassement_voiries_kaolack_ziguinchor_2026',
@@ -62,5 +48,19 @@ const OFFRES_WEB = [
     source: 'UNGM (United Nations Global Marketplace)',
     lien: 'https://www.ungm.org/Public/Notice/317129',
     deadline: '2026-10-26'
+  },
+  {
+    id: 'human_appeal_senegal_10salles_classe_5blocs_2026',
+    titre: "Construction de dix (10) salles de classe réparties en cinq (05) blocs de deux salles, sur plusieurs sites (Marsassoum, CEM de Kadam, lycée-collège franco-arabe de Diourbel, CEM Tété Diadhiou à Ziguinchor) — réf. SN26-40702",
+    client: 'Human Appeal Sénégal (financement France Zakat)',
+    type: 'AO',
+    secteur: 'Bâtiment — construction scolaire (terrassement, fondations, maçonnerie, charpente, couverture, menuiseries métalliques, électricité, peinture, accès PMR)',
+    pays: 'Sénégal (Marsassoum, Kadam, Diourbel, Ziguinchor)',
+    tier: 'A',
+    quickWin: true,
+    quickWinNote: "Bâtiments scolaires simples et standards, cœur de métier bâtiment de DC ; point de vigilance : 4 sites répartis dans 4 localités différentes (logistique multi-site)",
+    source: "Human Appeal Sénégal — relayé par iapg.org.uk",
+    lien: 'https://iapg.org.uk/appel-doffres-construction-de-10-salles-de-classe-au-senegal/',
+    deadline: '2026-10-27'
   }
 ];
