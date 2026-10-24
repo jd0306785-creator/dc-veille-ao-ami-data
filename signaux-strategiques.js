@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-10-22',
+  derniereMiseAJour: '2026-10-24',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -736,5 +736,25 @@ const SIGNAUX = [
     dateAnnonce: '2026-09-24',
     resume: "Lors de sa 152e session tenue à Lomé le 24 septembre 2026, le conseil d'administration de la BOAD a approuvé pour le Togo deux opérations totalisant 82 Md FCFA sur un paquet global de 157,5 Md FCFA pour l'UEMOA : 45 Md FCFA pour la phase 3 du programme d'appui à la mécanisation agricole et à l'irrigation (aménagement de 530 hectares, objectif de production additionnelle d'au moins 100 000 tonnes de riz/an) et 37 Md FCFA pour l'extension des capacités de stockage de produits pétroliers à Lomé.",
     lien: 'https://www.financialafrik.com/2026/09/24/boad-1575-milliards-fcfa-de-nouveaux-financements-approuves-le-portefeuille-global-atteint-10-9916-milliards-fcfa/'
+  },
+  {
+    id: 'sig_senegal_compact_eau_2026_2030',
+    titre: "Sénégal : objectif de 2 631 Md FCFA (~4,5 Md USD) pour le Compact national Eau et Assainissement 2026-2030",
+    bailleurOuSource: "Gouvernement du Sénégal (Ministère de l'Eau et de l'Assainissement) / initiative « Water Forward » Banque Mondiale",
+    pays: 'Sénégal',
+    secteur: 'VRD — eau potable et assainissement',
+    dateAnnonce: '2026-10-20',
+    resume: "Le ministre de l'Eau et de l'Assainissement, Cheikh Tidiane Dièye, a présenté à Dakar le 20 octobre 2026 le Compact national Eau et Assainissement 2026-2030, avec un objectif de mobilisation d'environ 2 631 Md FCFA (~4,5 Md USD) pour atteindre l'accès universel à l'eau potable et à l'assainissement d'ici 2030 ; initiative présentée en lien avec le programme « Water Forward » de la Banque mondiale, dont une première version avait été esquissée à Washington en avril 2026 — signal amont d'un pipeline de travaux de VRD/eau-assainissement à venir, montants encore à préciser projet par projet.",
+    lien: 'https://lesoleil.sn/actualites/conference-de-lonu-sur-leau-2026-le-senegal-veut-mobiliser-2-631-milliards-de-fcfa'
+  },
+  {
+    id: 'sig_ci_plan_mattei_italie_639m',
+    titre: "Côte d'Ivoire : 639 M€ mobilisés par l'Italie dans le cadre du Plan Mattei",
+    bailleurOuSource: "Gouvernement italien (Plan Mattei)",
+    pays: "Côte d'Ivoire",
+    secteur: 'Multisectoriel — énergie, agriculture, infrastructures (portée BTP précise à confirmer)',
+    dateAnnonce: '2026-10-21',
+    resume: "À la suite d'un forum d'investissement italo-ivoirien tenu à Abidjan le 15 octobre 2026, l'Italie a annoncé le 21 octobre 2026 la mobilisation de 639 M€ pour la Côte d'Ivoire dans le cadre de son Plan Mattei, portant sur l'énergie, l'agriculture et les infrastructures ; nouveau bailleur actif à surveiller, répartition précise des financements et volet travaux de construction pas encore détaillés à ce stade.",
+    lien: 'https://www.financialafrik.com/2026/10/21/plan-mattei-639-millions-deuros-mobilises-pour-la-cote-divoire/'
   }
 ];

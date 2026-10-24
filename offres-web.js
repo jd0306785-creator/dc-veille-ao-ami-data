@@ -2,7 +2,7 @@
 // Fichier volontairement allégé : uniquement des faits publics (titre, client, pays,
 // type, tier, lien, échéance). Aucune analyse stratégique interne DC n'est publiée ici.
 const OFFRES_WEB_META = {
-  derniereMiseAJour: '2026-10-23',
+  derniereMiseAJour: '2026-10-24',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -20,20 +20,6 @@ const OFFRES_WEB = [
     source: 'PROMOGED / Banque Mondiale — relayé par AllBusiness Africa',
     lien: 'https://allbusiness.africa/tenders/conception-et-construction-du-centre-denfouissement-technique-de-bambilor-et-de-sa-route-dacces',
     deadline: '2026-11-03'
-  },
-  {
-    id: 'sonacos_demolition_terrassement_voiries_kaolack_ziguinchor_2026',
-    titre: "Travaux de démolition, de terrassement, de nivellement et de voiries — unités industrielles de Kaolack et Ziguinchor",
-    client: 'SONACOS (Société Nationale de Commercialisation des Oléagineux du Sénégal)',
-    type: 'AO',
-    secteur: 'VRD / génie civil — démolition, terrassement, voiries',
-    pays: 'Sénégal (Kaolack, Ziguinchor)',
-    tier: 'C',
-    quickWin: true,
-    quickWinNote: "Démolition/terrassement/voiries = durée courte, cœur de métier VRD de DC ; tier C car maître d'ouvrage public hors ressources propres de bailleur, financement direct de l'entreprise publique",
-    source: 'Pi Business Info — avis d\'appels d\'offres',
-    lien: 'https://www.pibusinessinfo.com/avis-dappels-doffres/',
-    deadline: '2026-10-23'
   },
   {
     id: 'unicef_togo_9salles_classe_epp_savanes_2026',
