@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-10-24',
+  derniereMiseAJour: '2026-10-27',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -756,5 +756,35 @@ const SIGNAUX = [
     dateAnnonce: '2026-10-21',
     resume: "À la suite d'un forum d'investissement italo-ivoirien tenu à Abidjan le 15 octobre 2026, l'Italie a annoncé le 21 octobre 2026 la mobilisation de 639 M€ pour la Côte d'Ivoire dans le cadre de son Plan Mattei, portant sur l'énergie, l'agriculture et les infrastructures ; nouveau bailleur actif à surveiller, répartition précise des financements et volet travaux de construction pas encore détaillés à ce stade.",
     lien: 'https://www.financialafrik.com/2026/10/21/plan-mattei-639-millions-deuros-mobilises-pour-la-cote-divoire/'
+  },
+  {
+    id: 'sig_ci_ue_gares_lagunaires_abidjan_2026',
+    titre: "Côte d'Ivoire : l'UE finance la construction de 13 gares lagunaires et l'achat de bateaux-bus à Abidjan (3 M€)",
+    bailleurOuSource: 'Union européenne',
+    pays: "Côte d'Ivoire",
+    secteur: 'Génie civil / VRD — infrastructures de transport lagunaire (gares/quais)',
+    dateAnnonce: '2026-10-20',
+    resume: "Le ministre ivoirien des Transports Amadou Koné a annoncé le 20 octobre 2026, à l'ouverture de la CIMDC 2026 à Abidjan, un don de l'UE de 3 M€ (~1,96 Md FCFA) pour relancer le transport lagunaire, incluant la construction de 13 gares lagunaires et l'acquisition de bateaux-bus.",
+    lien: 'https://www.koaci.com/article/2026/10/21/cote-divoire/societe/cote-divoire-un-soutien-financier-de-lue-pour-revitaliser-le-secteur-du-transport-lagunaire-avec-la-construction-de-13-stations-lagunaires-et-lachat-de-25-bateaux-bus_201825.html'
+  },
+  {
+    id: 'sig_senegal_pnruhs_renouveau_urbain_2026',
+    titre: "Sénégal : lancement du PNRUHS, programme national de renouveau urbain et d'habitat souverain (~3 000 Md FCFA)",
+    bailleurOuSource: "Gouvernement du Sénégal (Ministère de l'Urbanisme/Habitat)",
+    pays: 'Sénégal',
+    secteur: 'Bâtiment — logement social et villes nouvelles',
+    dateAnnonce: '2026-10-22',
+    resume: "En marge de SENHABITAT 2026 (22-24 octobre, King Fahd Palace, Dakar), le gouvernement a présenté le PNRUHS doté d'environ 3 000 Md FCFA (dont ~1 875 Md pour les villes nouvelles et ~1 100 Md pour la restructuration urbaine), avec un objectif de 50% de logements sociaux/abordables dans les programmes agréés ; détails de mise en œuvre (porteurs, calendrier) encore à préciser.",
+    lien: 'https://fr.apanews.net/community/senegal-un-programme-de-renouveau-urbain-de-pres-de-3-000-milliards-fcfa/'
+  },
+  {
+    id: 'sig_ci_centrale_solaire_katiola_2026',
+    titre: "Côte d'Ivoire : première pierre de la centrale solaire de Katiola (50 MWc, ~33 Md FCFA)",
+    bailleurOuSource: 'Katiola Solar Power (concession privée 25 ans) / gouvernement ivoirien',
+    pays: "Côte d'Ivoire",
+    secteur: 'Génie civil / énergie — construction de centrale photovoltaïque',
+    dateAnnonce: '2026-10-22',
+    resume: "Le ministre Mamadou Sangafowa-Coulibaly a présidé le 22 octobre 2026 la cérémonie de première pierre de la centrale photovoltaïque de 50 MWc à Lonankaha (près de Katiola), chantier estimé à 33 Md FCFA (~56 M$) sur 15 mois, pouvant générer jusqu'à 350 emplois pendant les travaux ; projet distinct des trois PPP de 735 MW déjà suivis (Taboth/Abidjan/Attakro).",
+    lien: 'https://www.riotimesonline.com/ivory-coast-katiola-solar-plant-50mw-first-stone-2026/'
   }
 ];
