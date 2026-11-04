@@ -2,23 +2,23 @@
 // Fichier volontairement allégé : uniquement des faits publics (titre, client, pays,
 // type, tier, lien, échéance). Aucune analyse stratégique interne DC n'est publiée ici.
 const OFFRES_WEB_META = {
-  derniereMiseAJour: '2026-10-28',
+  derniereMiseAJour: '2026-11-04',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
 const OFFRES_WEB = [
   {
-    id: 'sen_promoged_bambilor_cet_route_acces_2026',
-    titre: "Conception et construction du Centre d'Enfouissement Technique (CET) de Bambilor et de sa route d'accès (lot unique, Projet PROMOGED, réf. SN-PROMOGED-541271-CW-RFB)",
-    client: "Unité de Coordination de la Gestion des déchets solides (UCG) — Ministère de l'Environnement et de la Transition Écologique",
+    id: 'mrt_sen_soged_omvs_digue_keurmacene_diama_2026',
+    titre: "Travaux de réparation et de consolidation du tronçon Keurmacène–Diama de la digue rive droite du fleuve Sénégal (AOI n°001/SOGED/OMVS/2026)",
+    client: "SOGED — Société de Gestion et d'Exploitation du barrage de Diama (sous tutelle OMVS)",
     type: 'AO',
-    secteur: "Génie civil / VRD — conception-construction d'un ouvrage d'enfouissement technique et de sa voirie d'accès",
-    pays: 'Sénégal (Bambilor, Rufisque)',
+    secteur: 'Génie civil / VRD — réparation et consolidation d\'un ouvrage de digue fluviale',
+    pays: 'Mauritanie / Sénégal (zone frontalière, barrage de Diama)',
     tier: 'A',
     quickWin: false,
-    quickWinNote: "Lot unique mais marché en conception-construction avec exigences techniques spécialisées (étanchéité/géomembrane, gestion de déchets) hors cœur de métier standard DC — pertinent surtout en groupement avec un spécialiste déchets",
-    source: 'PROMOGED / Banque Mondiale — relayé par AllBusiness Africa',
-    lien: 'https://allbusiness.africa/tenders/conception-et-construction-du-centre-denfouissement-technique-de-bambilor-et-de-sa-route-dacces',
-    deadline: '2026-11-03'
+    quickWinNote: "Travaux de réparation/consolidation (a priori plus courts qu'un ouvrage neuf) mais durée d'exécution, nombre de lots et modalités de paiement non précisés dans l'avis consulté — à vérifier dans le DAO avant engagement",
+    source: 'SOGED / OMVS — avis relayé par lesoleil.sn',
+    lien: 'https://lesoleil.sn/offre-demploi/avis-dappel-doffres-intrenational-n_001_-soged-omvs-2026/',
+    deadline: '2026-11-18'
   }
 ];
