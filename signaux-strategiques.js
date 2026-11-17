@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-10-27',
+  derniereMiseAJour: '2026-11-17',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -786,5 +786,35 @@ const SIGNAUX = [
     dateAnnonce: '2026-10-22',
     resume: "Le ministre Mamadou Sangafowa-Coulibaly a présidé le 22 octobre 2026 la cérémonie de première pierre de la centrale photovoltaïque de 50 MWc à Lonankaha (près de Katiola), chantier estimé à 33 Md FCFA (~56 M$) sur 15 mois, pouvant générer jusqu'à 350 emplois pendant les travaux ; projet distinct des trois PPP de 735 MW déjà suivis (Taboth/Abidjan/Attakro).",
     lien: 'https://www.riotimesonline.com/ivory-coast-katiola-solar-plant-50mw-first-stone-2026/'
+  },
+  {
+    id: 'sig_senegal_rothschild_vinci_financement_paris_nov2026',
+    titre: "Sénégal : le président sollicite Rothschild & Co et Vinci pour financer les grands projets d'énergie, de santé et d'aéroports",
+    bailleurOuSource: 'Présidence du Sénégal — relayé par APA News et Le Soleil',
+    pays: 'Sénégal',
+    secteur: 'Bâtiment / infrastructures — énergie, santé, aéroports (recherche de financement privé)',
+    dateAnnonce: '2026-11-11',
+    resume: "En marge du Forum de Paris sur la Paix, Bassirou Diomaye Faye a reçu des dirigeants de Rothschild & Co et du groupe Vinci pour évoquer des projets concrets dans l'énergie, la santé et les infrastructures aéroportuaires et les conditions de leur financement, dans le cadre de la Vision Sénégal 2050 ; aucun montant ferme annoncé à ce stade.",
+    lien: 'https://fr.apanews.net/business/senegal-diomaye-faye-sollicite-rothschild-et-vinci-pour-financer-les-grands-projets/'
+  },
+  {
+    id: 'sig_ci_pirme_38000md_mines_energie_2026',
+    titre: "Côte d'Ivoire : lancement de la Politique Intégrée des Ressources Minières et Énergétiques (PIRME), 38 000 Mds FCFA sur 15 ans",
+    bailleurOuSource: "Gouvernement de Côte d'Ivoire (ministère des Mines, du Pétrole et de l'Énergie)",
+    pays: "Côte d'Ivoire",
+    secteur: "Génie civil / infrastructures énergétiques et minières — centrales électriques, raffinerie, routes d'accès",
+    dateAnnonce: '2026-11-09',
+    resume: "Présentée à Abidjan par le ministre Mamadou Sangafowa-Coulibaly, la PIRME prévoit 38 000 milliards FCFA d'investissements sur 15 ans pour porter la capacité électrique installée de 3 360 MW à 11 414 MW d'ici 2040 et construire une nouvelle raffinerie de 6,1 Mt d'ici 2032, impliquant d'importants travaux de génie civil et VRD associés.",
+    lien: 'https://www.aip.ci/aip-la-pirme-vise-a-doubler-en-15-ans-la-contribution-des-secteurs-minier-et-energetique-a-leconomie-ivoirienne-ministre/'
+  },
+  {
+    id: 'sig_ci_chpc_pistes_agricoles_tabou_2026',
+    titre: "Côte d'Ivoire : lancement des travaux de réhabilitation des pistes agricoles à Tabou (filière palmier à huile/coco)",
+    bailleurOuSource: 'Conseil Hévéa, Palmier à huile, Coco (CHPC) — financement public national',
+    pays: "Côte d'Ivoire",
+    secteur: 'VRD — pistes rurales, ouvrages d\'art (buses, dalots)',
+    dateAnnonce: '2026-10-28',
+    resume: "Le CHPC a lancé à Tabou des travaux de réhabilitation de pistes agricoles pour faciliter l'évacuation des récoltes en saison des pluies, dans le cadre d'un programme 2026 prévoyant 800 ouvrages d'art et le reprofilage de 100 km de pistes dans les zones de production de palmier à huile ; aucun bailleur externe identifié pour ce volet.",
+    lien: 'https://www.koaci.com/article/2026/10/28/cote-divoire/societe/cote-divoire-tabou-le-conseil-hevea-palmier-a-huile-coco-chpc-lance-des-travaux-de-rehabilitation-des-pistes-agricoles_202070.html'
   }
 ];

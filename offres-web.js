@@ -2,7 +2,7 @@
 // Fichier volontairement allégé : uniquement des faits publics (titre, client, pays,
 // type, tier, lien, échéance). Aucune analyse stratégique interne DC n'est publiée ici.
 const OFFRES_WEB_META = {
-  derniereMiseAJour: '2026-11-10',
+  derniereMiseAJour: '2026-11-17',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -34,5 +34,33 @@ const OFFRES_WEB = [
     source: 'SOGED / OMVS — avis relayé par lesoleil.sn',
     lien: 'https://lesoleil.sn/offre-demploi/avis-dappel-doffres-intrenational-n_001_-soged-omvs-2026/',
     deadline: '2026-11-18'
+  },
+  {
+    id: 'mrt_bid_technopole_darnaim_cfp_almina_2026',
+    titre: "Travaux de construction d'un technopôle à Dar Naïm et d'un centre de formation professionnelle à Al Mina (2 lots) — AOI/PM n° 01/CPMP/DPEF/PAFPEJ/2026",
+    client: "Direction des Projets Éducation-Formation (DPEF) — Projet PAFPEJ, financement Banque Islamique de Développement (BID)",
+    type: 'AO',
+    secteur: "Bâtiment — construction neuve de bâtiments de formation professionnelle et d'un technopôle (gros œuvre, second œuvre)",
+    pays: 'Mauritanie (Nouakchott — Dar Naïm, Al Mina)',
+    tier: 'A',
+    quickWin: false,
+    quickWinNote: "Deux lots séparés (Dar Naïm 24 mois, Al Mina 18 mois) — durée d'exécution plutôt longue pour un quick-win ; possibilité de ne soumissionner qu'à un seul lot ; avance de démarrage et modalités de décompte non précisées dans l'avis — à vérifier dans le DAO",
+    source: 'Banque Islamique de Développement (isdb.org) — avis de procurement projet',
+    lien: 'https://www.isdb.org/project-procurement/fr/node/4329',
+    deadline: '2026-12-22'
+  },
+  {
+    id: 'ci_savethechildren_prequalification_construction_rehab_2026',
+    titre: "Appel à manifestation d'intérêt — préqualification d'entreprises pour travaux de construction et de réhabilitation (réf. ITT-CON-CIV-2026-003)",
+    client: "Save the Children International — Côte d'Ivoire (financement AICS, Coopération italienne)",
+    type: 'AMI',
+    secteur: "Bâtiment — construction et réhabilitation (nature exacte des lots non précisée dans l'avis de préqualification)",
+    pays: "Côte d'Ivoire",
+    tier: 'A',
+    quickWin: false,
+    quickWinNote: "Stade de préqualification uniquement (pas encore le marché de travaux) — durée, lots et modalités de paiement inconnus à ce stade ; à resuivre lors de la publication de l'AO de travaux qui suivra",
+    source: 'Save the Children International — avis relayé par business.abidjan.net',
+    lien: 'https://business.abidjan.net/communique/9048-appel-doffres-pre-qualification-pour-travaux-de-construction-et-de-rehabilitation',
+    deadline: '2026-11-30'
   }
 ];
