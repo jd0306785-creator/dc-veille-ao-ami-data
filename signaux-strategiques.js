@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-11-17',
+  derniereMiseAJour: '2026-11-18',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -816,5 +816,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-10-28',
     resume: "Le CHPC a lancé à Tabou des travaux de réhabilitation de pistes agricoles pour faciliter l'évacuation des récoltes en saison des pluies, dans le cadre d'un programme 2026 prévoyant 800 ouvrages d'art et le reprofilage de 100 km de pistes dans les zones de production de palmier à huile ; aucun bailleur externe identifié pour ce volet.",
     lien: 'https://www.koaci.com/article/2026/10/28/cote-divoire/societe/cote-divoire-tabou-le-conseil-hevea-palmier-a-huile-coco-chpc-lance-des-travaux-de-rehabilitation-des-pistes-agricoles_202070.html'
+  },
+  {
+    id: 'sig_mauritanie_afd_eau_potable_nouakchott_nouadhibou_2026',
+    titre: "Mauritanie : accord de financement AFD de 41 M€ pour l'eau potable à Nouakchott et Nouadhibou",
+    bailleurOuSource: 'Agence Française de Développement (AFD) / État mauritanien — relayé par Capmad',
+    pays: 'Mauritanie',
+    secteur: "Génie civil / VRD — réseaux et branchements d'eau potable",
+    dateAnnonce: '2026-11-11',
+    resume: "La Mauritanie et la France ont signé le 11 novembre 2026 à Nouakchott un accord de financement de 41 M€ (prêt souverain et subvention) destiné à l'approvisionnement en eau potable de Nouakchott et Nouadhibou, devant permettre la création de près de 150 000 branchements ; signé par le ministre mauritanien des Affaires économiques et du Développement et l'ambassadeur de France.",
+    lien: 'https://www.capmad.com/article/mauritanie-150-000-branchements-prevus-pour-ameliorer-lacces-a-leau'
   }
 ];
