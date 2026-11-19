@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-11-18',
+  derniereMiseAJour: '2026-11-19',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -826,5 +826,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-11-11',
     resume: "La Mauritanie et la France ont signé le 11 novembre 2026 à Nouakchott un accord de financement de 41 M€ (prêt souverain et subvention) destiné à l'approvisionnement en eau potable de Nouakchott et Nouadhibou, devant permettre la création de près de 150 000 branchements ; signé par le ministre mauritanien des Affaires économiques et du Développement et l'ambassadeur de France.",
     lien: 'https://www.capmad.com/article/mauritanie-150-000-branchements-prevus-pour-ameliorer-lacces-a-leau'
+  },
+  {
+    id: 'sig_benin_ifc_proparco_30meur_quatre_centrales_solaires',
+    titre: "Bénin : 30 M€ mobilisés auprès de l'IFC et de Proparco pour les quatre premières centrales solaires IPP du pays",
+    bailleurOuSource: 'IFC (Société financière internationale) et Proparco, avec AXIAN Group et la Caisse des Dépôts et Consignations du Bénin (CDC Bénin)',
+    pays: 'Bénin',
+    secteur: 'Génie civil / énergie — construction de quatre centrales solaires photovoltaïques',
+    dateAnnonce: '2026-10-29',
+    resume: "AXIAN Group, la CDC Bénin, l'IFC et Proparco ont signé le 29 octobre 2026 à Cotonou des accords de financement d'environ 30 M€ (avec mobilisation complémentaire du Clean Technology Fund via l'IFC) pour la construction de quatre centrales solaires photovoltaïques à Natitingou, Djougou, Parakou et Bohicon, pour un coût total de projet annoncé à 45 M€ et une mise en service visée en 2028 — montant exact et répartition par bailleur variables selon les sources (28 à 30 M€), à confirmer avant toute analyse d'opportunité de travaux de génie civil.",
+    lien: 'https://www.financialafrik.com/2026/10/30/benin-30-millions-deuros-de-financement-pour-le-premier-projet-solaire-ipp-du-pays/'
   }
 ];
