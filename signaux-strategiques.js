@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-11-19',
+  derniereMiseAJour: '2026-11-20',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -836,5 +836,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-10-29',
     resume: "AXIAN Group, la CDC Bénin, l'IFC et Proparco ont signé le 29 octobre 2026 à Cotonou des accords de financement d'environ 30 M€ (avec mobilisation complémentaire du Clean Technology Fund via l'IFC) pour la construction de quatre centrales solaires photovoltaïques à Natitingou, Djougou, Parakou et Bohicon, pour un coût total de projet annoncé à 45 M€ et une mise en service visée en 2028 — montant exact et répartition par bailleur variables selon les sources (28 à 30 M€), à confirmer avant toute analyse d'opportunité de travaux de génie civil.",
     lien: 'https://www.financialafrik.com/2026/10/30/benin-30-millions-deuros-de-financement-pour-le-premier-projet-solaire-ipp-du-pays/'
+  },
+  {
+    id: 'sig_ci_bad_20md_pnd_2026_2030',
+    titre: "Côte d'Ivoire : la BAD annonce 20 milliards de dollars pour le financement du PND 2026-2030",
+    bailleurOuSource: 'Banque africaine de développement (BAD) — président Sidi Ould Tah',
+    pays: "Côte d'Ivoire",
+    secteur: 'BTP / infrastructures multisectorielles — financement du Plan national de développement',
+    dateAnnonce: '2026-07-08',
+    resume: "Lors du Groupe consultatif sur le financement du PND 2026-2030 tenu les 8-9 juillet 2026 à Abidjan (Sofitel Hôtel Ivoire), le président de la BAD a annoncé un engagement de 20 milliards de dollars, dont 8,7 Md$ sur ressources propres de la BAD et 11,3 Md$ à mobiliser auprès d'autres partenaires financiers ; cet engagement s'ajoute aux 480 Md FCFA déjà signés avec la Banque mondiale lors du même événement, portant les intentions de financement totales annoncées par les bailleurs à près de 80 Md$ face à des besoins publics estimés à 66 Md$.",
+    lien: 'https://fr.apanews.net/news/bad-20-milliards-annonces-pour-le-pnd-ivoirien/'
   }
 ];
