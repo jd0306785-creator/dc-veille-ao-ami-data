@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-11-20',
+  derniereMiseAJour: '2026-11-21',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -846,5 +846,25 @@ const SIGNAUX = [
     dateAnnonce: '2026-07-08',
     resume: "Lors du Groupe consultatif sur le financement du PND 2026-2030 tenu les 8-9 juillet 2026 à Abidjan (Sofitel Hôtel Ivoire), le président de la BAD a annoncé un engagement de 20 milliards de dollars, dont 8,7 Md$ sur ressources propres de la BAD et 11,3 Md$ à mobiliser auprès d'autres partenaires financiers ; cet engagement s'ajoute aux 480 Md FCFA déjà signés avec la Banque mondiale lors du même événement, portant les intentions de financement totales annoncées par les bailleurs à près de 80 Md$ face à des besoins publics estimés à 66 Md$.",
     lien: 'https://fr.apanews.net/news/bad-20-milliards-annonces-pour-le-pnd-ivoirien/'
+  },
+  {
+    id: 'sig_ci_plan_infrastructures_2030_routes_autoroutes_aeroport',
+    titre: "Côte d'Ivoire : le gouvernement détaille son plan infrastructures à l'horizon 2030 (3 000 km de routes bitumées, 300 km d'autoroutes, extension de l'aéroport d'Abidjan, ports et volet ferroviaire)",
+    bailleurOuSource: "Gouvernement de Côte d'Ivoire (Ministère des Infrastructures et de l'Entretien routier) — échange en ligne organisé par le CICG, relayé par Koaci",
+    pays: "Côte d'Ivoire",
+    secteur: 'BTP / VRD — routes interurbaines, autoroutes, aéroportuaire, portuaire, ferroviaire',
+    dateAnnonce: '2026-11-12',
+    resume: "Le ministre des Infrastructures a détaillé le 12-13 novembre 2026 les ambitions du PND 2026-2030 : 3 000 km de routes interurbaines bitumées supplémentaires (réseau bitumé porté à 12 000 km) et 300 km d'autoroutes en plus (réseau porté à 700 km) d'ici 2030, l'extension de l'aéroport international Félix Houphouët-Boigny (capacité visée 8 millions de passagers contre 2,4 millions actuellement), des projets portuaires à Abidjan et San Pedro, et un volet ferroviaire — feuille de route gouvernementale, pas encore d'appel d'offres formel.",
+    lien: 'https://www.koaci.com/article/2026/11/13/cote-divoire/societe/cote-divoire-infrastructures-le-gouvernement-ambitionne-de-realiser-3-000-km-de-routes-interurbaines-bitumees-et-300-km-dautoroute-en-plus-dici-2030_202568.html'
+  },
+  {
+    id: 'sig_senegal_relance_ferroviaire_dakar_tambacounda',
+    titre: "Sénégal : le gouvernement vise à boucler en 2026 la phase préparatoire de la relance de la ligne ferroviaire Dakar-Tambacounda",
+    bailleurOuSource: "Gouvernement du Sénégal (Premier ministre Ousmane Sonko, Conseil des ministres) — Le Soleil",
+    pays: 'Sénégal',
+    secteur: 'Ferroviaire — infrastructure structurante (volet travaux pas encore lancé)',
+    dateAnnonce: '2026-11-20',
+    resume: "Le Premier ministre a annoncé le 20 novembre 2026 que le gouvernement finalisera en 2026 la phase préparatoire de la relance de l'axe ferroviaire Dakar-Tambacounda, présenté comme l'une des infrastructures structurantes de l'Agenda « Sénégal 2050 » et un catalyseur de l'intégration territoriale (connexion vers le Mali via Kidira) ; le financement des études préparatoires avait été mobilisé via l'UE/AFD (~6,5 Md FCFA) dans le cadre plus large de l'extension du TER vers Thiès — projet pas encore au stade de l'appel d'offres travaux.",
+    lien: 'https://lesoleil.sn/actualites/economie/chemin-de-fer-dakar-tambacounda-relance-dun-axe-strategique-et-catalyseur-de-lintegration-territoriale/'
   }
 ];

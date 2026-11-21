@@ -2,7 +2,7 @@
 // Fichier volontairement allégé : uniquement des faits publics (titre, client, pays,
 // type, tier, lien, échéance). Aucune analyse stratégique interne DC n'est publiée ici.
 const OFFRES_WEB_META = {
-  derniereMiseAJour: '2026-11-19',
+  derniereMiseAJour: '2026-11-21',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -34,5 +34,19 @@ const OFFRES_WEB = [
     source: 'Save the Children International — avis relayé par business.abidjan.net',
     lien: 'https://business.abidjan.net/communique/9048-appel-doffres-pre-qualification-pour-travaux-de-construction-et-de-rehabilitation',
     deadline: '2026-11-30'
+  },
+  {
+    id: 'ci_pdzta2_zuenoula_kongasso_mankono_route_pont_2026',
+    titre: "Travaux de construction de la route Zuénoula–Kongasso–Mankono (~75 km), d'un pont sur le Béré et de 13 km de voiries urbaines à Zuénoula/Kongasso/Mankono (PDZTA-2, avis AOI n° T 1505/2026)",
+    client: "Ministère des Infrastructures et de l'Entretien routier (Côte d'Ivoire) — financement Banque africaine de développement (BAD) et Banque asiatique d'investissement pour les infrastructures (BAII/AIIB, prêt L1002A)",
+    type: 'AO',
+    secteur: "Génie civil / VRD — construction routière, ouvrage d'art (pont) et voiries urbaines",
+    pays: "Côte d'Ivoire",
+    tier: 'A',
+    quickWin: false,
+    quickWinNote: "Financement Tier A (BAD/AIIB) sécurisant pour les paiements, mais lot combiné route + pont + voiries urbaines (pas un lot simple) et durée d'exécution, avance de démarrage et modalités de décompte non confirmées dans les sources consultées (accès direct aux portails AfDB/AIIB indisponible pour vérification cette session) — à confirmer dans le DAO avant engagement",
+    source: 'Banque asiatique d\'investissement pour les infrastructures (AIIB) — avis relayé en ligne, lien à revérifier avant usage',
+    lien: 'https://www.aiib.org/en/projects/details/2026/_download/Cote/avis-dappel-doffres-dao-travaux-zuenoula-mankonologo.pdf',
+    deadline: '2026-12-15'
   }
 ];
