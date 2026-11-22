@@ -2,25 +2,11 @@
 // Fichier volontairement allégé : uniquement des faits publics (titre, client, pays,
 // type, tier, lien, échéance). Aucune analyse stratégique interne DC n'est publiée ici.
 const OFFRES_WEB_META = {
-  derniereMiseAJour: '2026-11-21',
+  derniereMiseAJour: '2026-11-22',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
 const OFFRES_WEB = [
-  {
-    id: 'sen_mpem_dage059_demolition_construction_locaux_peches_dakar_2026',
-    titre: "Travaux de démolition et de construction des locaux abritant le Service régional des pêches de Dakar (Avis n° 2026-MPEM-T_DAGE_059)",
-    client: "Ministère des Pêches et de l'Économie maritime (MPEM) — Direction de l'Administration générale et de l'Équipement (DAGE)",
-    type: 'AO',
-    secteur: "Bâtiment — démolition et reconstruction d'un bâtiment administratif",
-    pays: 'Sénégal',
-    tier: 'C',
-    quickWin: false,
-    quickWinNote: "Petit bâtiment administratif, a priori chantier court et à lot unique, mais financement sur le Budget consolidé d'investissement 2026 de l'État (budget national direct, tier C) — risque de retard sur les décomptes à anticiper (retards de paiement signalés en 2026 sur les marchés BTP financés sur budget national) ; durée d'exécution, nombre de lots exact et avance de démarrage non précisés dans l'avis consulté — à vérifier dans le DAO avant engagement",
-    source: "Ministère des Pêches et de l'Économie maritime — avis relayé par lesoleil.sn",
-    lien: 'https://lesoleil.sn/offre-demploi/avis-dappel-doffres-ouvert-cas-sans-pre‐qualification-n-2026-mpem-t_dage_059/',
-    deadline: '2026-11-20'
-  },
   {
     id: 'ci_savethechildren_prequalification_construction_rehab_2026',
     titre: "Appel à manifestation d'intérêt — préqualification d'entreprises pour travaux de construction et de réhabilitation (réf. ITT-CON-CIV-2026-003)",
@@ -34,19 +20,5 @@ const OFFRES_WEB = [
     source: 'Save the Children International — avis relayé par business.abidjan.net',
     lien: 'https://business.abidjan.net/communique/9048-appel-doffres-pre-qualification-pour-travaux-de-construction-et-de-rehabilitation',
     deadline: '2026-11-30'
-  },
-  {
-    id: 'ci_pdzta2_zuenoula_kongasso_mankono_route_pont_2026',
-    titre: "Travaux de construction de la route Zuénoula–Kongasso–Mankono (~75 km), d'un pont sur le Béré et de 13 km de voiries urbaines à Zuénoula/Kongasso/Mankono (PDZTA-2, avis AOI n° T 1505/2026)",
-    client: "Ministère des Infrastructures et de l'Entretien routier (Côte d'Ivoire) — financement Banque africaine de développement (BAD) et Banque asiatique d'investissement pour les infrastructures (BAII/AIIB, prêt L1002A)",
-    type: 'AO',
-    secteur: "Génie civil / VRD — construction routière, ouvrage d'art (pont) et voiries urbaines",
-    pays: "Côte d'Ivoire",
-    tier: 'A',
-    quickWin: false,
-    quickWinNote: "Financement Tier A (BAD/AIIB) sécurisant pour les paiements, mais lot combiné route + pont + voiries urbaines (pas un lot simple) et durée d'exécution, avance de démarrage et modalités de décompte non confirmées dans les sources consultées (accès direct aux portails AfDB/AIIB indisponible pour vérification cette session) — à confirmer dans le DAO avant engagement",
-    source: 'Banque asiatique d\'investissement pour les infrastructures (AIIB) — avis relayé en ligne, lien à revérifier avant usage',
-    lien: 'https://www.aiib.org/en/projects/details/2026/_download/Cote/avis-dappel-doffres-dao-travaux-zuenoula-mankonologo.pdf',
-    deadline: '2026-12-15'
   }
 ];

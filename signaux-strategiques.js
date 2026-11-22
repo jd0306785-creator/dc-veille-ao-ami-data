@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-11-21',
+  derniereMiseAJour: '2026-11-22',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -256,16 +256,6 @@ const SIGNAUX = [
     dateAnnonce: '2026-08-13',
     resume: "SN HLM a lancé la construction de 157 nouveaux logements (phase 2 du programme HLM 1) ainsi que la viabilisation de 20 hectares dans le cadre du projet Bambilor 2, pour un investissement de 13 milliards FCFA ; travaux de cette phase déjà confiés à Delta, TKM et TKF (achèvement prévu sous 8 mois) — signal de la poursuite d'un programme national de logement social pouvant ouvrir de futurs lots.",
     lien: 'https://www.capmad.com/post/in-bambilor-sn-hlm-relaunches-hlm-1-and-services-bambilor-2-to-boost-social-housing'
-  },
-  {
-    id: 'sig_bad_benin_togo_corridor_kara_kabou',
-    titre: "Bénin/Togo : la BAD (Fonds Africain de Développement) approuve un prêt de 59,78 M$ pour la réhabilitation du corridor frontalier Kara-Kabou (78,80 km)",
-    bailleurOuSource: 'Banque Africaine de Développement (FAD) / Banque Islamique de Développement (BID) / UEMOA',
-    pays: 'Bénin, Togo',
-    secteur: 'Génie civil / VRD — infrastructure routière transfrontalière',
-    dateAnnonce: '2026-05-21',
-    resume: "Le Conseil d'administration du Fonds africain de développement a approuvé le 21 mai 2026 à Abidjan un prêt de 59,78 M$ pour la réhabilitation de 78,80 km du tronçon frontalier Bénin-Togo (Ouaké-Kémérida-Soundjina-Kara-Djamdé-Kabou), avec traversée de la ville de Kara en 3x2 voies ; opération cofinancée par le Groupe BAD, la BID, l'UEMOA et les gouvernements du Togo et du Bénin dans le cadre du corridor CU18, signal amont avant de futurs marchés de travaux routiers.",
-    lien: 'https://www.afdb.org/fr/news-and-events/press-releases/le-fonds-africain-de-developpement-approuve-la-rehabilitation-dun-troncon-frontalier-entre-le-benin-et-le-togo-avec-un-financement-de-plus-de-59-millions-de-dollars-93898'
   },
   {
     id: 'sig_senegal_autoroute_mbour_fatick_kaolack_inauguration',
@@ -866,5 +856,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-11-20',
     resume: "Le Premier ministre a annoncé le 20 novembre 2026 que le gouvernement finalisera en 2026 la phase préparatoire de la relance de l'axe ferroviaire Dakar-Tambacounda, présenté comme l'une des infrastructures structurantes de l'Agenda « Sénégal 2050 » et un catalyseur de l'intégration territoriale (connexion vers le Mali via Kidira) ; le financement des études préparatoires avait été mobilisé via l'UE/AFD (~6,5 Md FCFA) dans le cadre plus large de l'extension du TER vers Thiès — projet pas encore au stade de l'appel d'offres travaux.",
     lien: 'https://lesoleil.sn/actualites/economie/chemin-de-fer-dakar-tambacounda-relance-dun-axe-strategique-et-catalyseur-de-lintegration-territoriale/'
+  },
+  {
+    id: 'sig_bidc_feuille_route_afrique_ouest_gro_2026_2030',
+    titre: "Afrique de l'Ouest : la BIDC réunit investisseurs et partenaires autour d'une feuille de route pour accélérer la transformation régionale (stratégie GRO 2026-2030)",
+    bailleurOuSource: "Banque d'Investissement et de Développement de la CEDEAO (BIDC/EBID)",
+    pays: "Afrique de l'Ouest (zone CEDEAO, dont Sénégal, Côte d'Ivoire, Bénin, Togo, Gambie, Cap-Vert)",
+    secteur: 'Infrastructures multisectorielles — priorité affichée aux investissements en infrastructures et au secteur privé',
+    dateAnnonce: '2026-11-12',
+    resume: "Le 12 novembre 2026, la BIDC (président Dr George Agyekum Donkor) a réuni investisseurs, institutions financières, partenaires au développement et acteurs du secteur privé pour présenter une feuille de route visant à accélérer la transformation économique de l'Afrique de l'Ouest, dans le cadre de sa stratégie GRO 2026-2030 articulée autour de trois priorités : accroître les investissements en infrastructures et dans le secteur privé, renforcer la résilience face aux chocs climatiques et économiques, et poursuivre la modernisation institutionnelle ; aucun montant ni projet individuel précisé à ce stade — signal de l'intensification du rôle de la BIDC comme bailleur actif dans la zone, à suivre pour de futurs appels à projets.",
+    lien: 'https://www.financialafrik.com/2026/11/12/bidc-mobilise-les-investisseurs-et-partenaires-autour-dune-feuille-de-route-pour-accelerer-la-transformation-de-lafrique-de-louest/'
   }
 ];
