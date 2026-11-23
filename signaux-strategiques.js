@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-11-22',
+  derniereMiseAJour: '2026-11-23',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -866,5 +866,25 @@ const SIGNAUX = [
     dateAnnonce: '2026-11-12',
     resume: "Le 12 novembre 2026, la BIDC (président Dr George Agyekum Donkor) a réuni investisseurs, institutions financières, partenaires au développement et acteurs du secteur privé pour présenter une feuille de route visant à accélérer la transformation économique de l'Afrique de l'Ouest, dans le cadre de sa stratégie GRO 2026-2030 articulée autour de trois priorités : accroître les investissements en infrastructures et dans le secteur privé, renforcer la résilience face aux chocs climatiques et économiques, et poursuivre la modernisation institutionnelle ; aucun montant ni projet individuel précisé à ce stade — signal de l'intensification du rôle de la BIDC comme bailleur actif dans la zone, à suivre pour de futurs appels à projets.",
     lien: 'https://www.financialafrik.com/2026/11/12/bidc-mobilise-les-investisseurs-et-partenaires-autour-dune-feuille-de-route-pour-accelerer-la-transformation-de-lafrique-de-louest/'
+  },
+  {
+    id: 'sig_ci_aiib_bad_pdzta2_zuenoula_mankono',
+    titre: "Côte d'Ivoire : lancement de l'appel d'offres travaux pour l'axe routier Zuénoula-Mankono, premier chantier du PDZTA phase 2 cofinancé par la BAD et l'AIIB",
+    bailleurOuSource: "Banque Africaine de Développement (BAD) et Asian Infrastructure Investment Bank (AIIB) — Ministère des Infrastructures et de l'Entretien Routier (maîtrise d'ouvrage déléguée AGEROUTE)",
+    pays: "Côte d'Ivoire",
+    secteur: 'Génie civil / VRD — infrastructure routière (désenclavement de zones transfrontalières et agricoles)',
+    dateAnnonce: '2026-10-13',
+    resume: "Le Ministère des Infrastructures et de l'Entretien Routier a publié le 13 octobre 2026 l'avis d'appel d'offres international n° IAS T1505/2026 pour les travaux routiers de l'axe Zuénoula-Mankono (2 lots : Zuénoula-PK36/Toubalo et PK36-Mankono), dans le cadre de la phase 2 du Programme de Désenclavement des Zones Transfrontalières et Agricoles (PDZTA2) ; ce programme est cofinancé par un prêt de la BAD d'environ 115,66 M€ et une contribution proposée de l'AIIB d'environ 96,4 M$ (Agricultural Zones Connectivity Project), confirmant l'AIIB comme bailleur désormais actif sur les infrastructures routières ivoiriennes aux côtés de la BAD ; offres attendues à la mi-décembre 2026, hors fenêtre d'action immédiate de 14 jours mais à resuivre.",
+    lien: 'https://www.aiib.org/en/projects/details/2025/proposed/cote-d-ivoire-agricultural-zones-connectivity-project-azcp.html'
+  },
+  {
+    id: 'sig_senegal_budget2027_infrastructures_rejete_601md',
+    titre: "Sénégal : les députés rejettent en commission le projet de budget 2027 du ministère des Infrastructures, réduit à 601 Md FCFA (-16% par rapport à 2026)",
+    bailleurOuSource: "Assemblée nationale du Sénégal (commissions des Finances et de l'Aménagement du territoire et des Infrastructures) / Gouvernement du Sénégal",
+    pays: 'Sénégal',
+    secteur: "Bâtiment / génie civil / VRD — budget d'investissement du ministère des Infrastructures et des Transports terrestres et aériens (MITTA)",
+    dateAnnonce: '2026-11-14',
+    resume: "Lors de l'examen conjoint du 14 novembre 2026, les commissions des Finances et de l'Aménagement du territoire et des Infrastructures de l'Assemblée nationale n'ont pas approuvé le projet de budget 2027 du ministère des Infrastructures et des Transports terrestres et aériens, fixé à environ 601,27 Md FCFA (dont ~349,2 Md FCFA pour les routes et le rail, ~163,7 Md FCFA pour les infrastructures sociales et administratives) — soit une baisse d'environ 16% (-114,9 Md FCFA) par rapport à la loi de finances initiale 2026 (716,1 Md FCFA) ; le budget doit encore être examiné en séance plénière, signal de risque sur le rythme de financement des grands chantiers publics en 2027.",
+    lien: 'https://emedia.sn/budget-2027-les-deputes-rejettent-le-projet-de-budget-du-ministere-des-infrastructures-fixe-a-601-milliards-fcfa/'
   }
 ];
