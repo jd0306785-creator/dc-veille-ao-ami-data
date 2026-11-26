@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-11-23',
+  derniereMiseAJour: '2026-11-26',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -886,5 +886,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-11-14',
     resume: "Lors de l'examen conjoint du 14 novembre 2026, les commissions des Finances et de l'Aménagement du territoire et des Infrastructures de l'Assemblée nationale n'ont pas approuvé le projet de budget 2027 du ministère des Infrastructures et des Transports terrestres et aériens, fixé à environ 601,27 Md FCFA (dont ~349,2 Md FCFA pour les routes et le rail, ~163,7 Md FCFA pour les infrastructures sociales et administratives) — soit une baisse d'environ 16% (-114,9 Md FCFA) par rapport à la loi de finances initiale 2026 (716,1 Md FCFA) ; le budget doit encore être examiné en séance plénière, signal de risque sur le rythme de financement des grands chantiers publics en 2027.",
     lien: 'https://emedia.sn/budget-2027-les-deputes-rejettent-le-projet-de-budget-du-ministere-des-infrastructures-fixe-a-601-milliards-fcfa/'
+  },
+  {
+    id: 'sig_ci_japon_echangeurs_abidjan_phase2_2026',
+    titre: "Côte d'Ivoire : le Japon accorde un don de 48,4 Md FCFA pour la 2e phase du projet de construction de trois échangeurs dans le Grand Abidjan",
+    bailleurOuSource: "Japon / JICA (coopération bilatérale japonaise)",
+    pays: "Côte d'Ivoire",
+    secteur: "Génie civil urbain — construction d'échangeurs routiers (Grand Abidjan)",
+    dateAnnonce: '2026-11-04',
+    resume: "La Côte d'Ivoire et le Japon ont signé le 4 novembre 2026 un nouvel accord de financement pour la deuxième phase du projet de construction de trois échangeurs dans le Grand Abidjan, en présence du ministre des Infrastructures ; selon l'AIP (5 novembre 2026), il s'agit d'un don de 48,4 Md FCFA, alors que la presse évoquait en février 2026 plutôt un prêt japonais d'environ 44 Md FCFA pour le même projet — nature exacte du financement (don/prêt) à confirmer dans le communiqué officiel. Le projet, débuté en 2023 sur des carrefours du boulevard Koffi Gadeau, fait suite à un premier prêt japonais d'environ 80,7 Md FCFA accordé en 2018 pour la phase 1.",
+    lien: 'https://www.aip.ci/cote-divoire-aip-le-japon-accorde-48-milliards-fcfa-pour-la-construction-de-trois-nouveaux-echangeurs-a-abidjan/'
   }
 ];
