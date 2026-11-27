@@ -2,7 +2,7 @@
 // bailleurs actifs, pas encore des AO/AMI formels. Synchronisé automatiquement (routine
 // quotidienne). Faits publics uniquement, résumés factuels.
 const SIGNAUX_META = {
-  derniereMiseAJour: '2026-11-26',
+  derniereMiseAJour: '2026-11-27',
   modeMiseAJour: 'automatique (routine quotidienne 7h)'
 };
 
@@ -896,5 +896,15 @@ const SIGNAUX = [
     dateAnnonce: '2026-11-04',
     resume: "La Côte d'Ivoire et le Japon ont signé le 4 novembre 2026 un nouvel accord de financement pour la deuxième phase du projet de construction de trois échangeurs dans le Grand Abidjan, en présence du ministre des Infrastructures ; selon l'AIP (5 novembre 2026), il s'agit d'un don de 48,4 Md FCFA, alors que la presse évoquait en février 2026 plutôt un prêt japonais d'environ 44 Md FCFA pour le même projet — nature exacte du financement (don/prêt) à confirmer dans le communiqué officiel. Le projet, débuté en 2023 sur des carrefours du boulevard Koffi Gadeau, fait suite à un premier prêt japonais d'environ 80,7 Md FCFA accordé en 2018 pour la phase 1.",
     lien: 'https://www.aip.ci/cote-divoire-aip-le-japon-accorde-48-milliards-fcfa-pour-la-construction-de-trois-nouveaux-echangeurs-a-abidjan/'
+  },
+  {
+    id: 'sig_senegal_pres_44projets_633md_2026',
+    titre: "Sénégal : le Plan de redressement économique et social (PRES) mobilise 633,7 Md FCFA pour 44 projets structurants en 2026",
+    bailleurOuSource: "Gouvernement du Sénégal (loi de finances initiale 2026)",
+    pays: 'Sénégal',
+    secteur: "Bâtiment / génie civil / VRD / hydraulique — transfert d'eau, électrification rurale, routes, voie ferrée, centres de santé",
+    dateAnnonce: '2026-11-27',
+    resume: "Le Soleil rapporte que la loi de finances initiale 2026 consacre, dans le cadre du PRES, 633,7 Md FCFA à 44 projets prioritaires couvrant notamment les infrastructures, l'énergie, l'agriculture et la santé : grand transfert d'eau DIAL-GTE (137 Md FCFA, sur une enveloppe de 148 Md FCFA pour le ministère de l'Hydraulique), électrification rurale (252 Md FCFA), routes, ligne ferroviaire Dakar-Kidira et construction de 35 centres de santé ; le financement s'appuie sur la mobilisation fiscale et des montages innovants type PPP plutôt que sur l'endettement classique.",
+    lien: 'https://lesoleil.sn/actualites/economie/plan-de-redressement-economique-633-milliards-f-cfa-mobilises-pour-44-projets-denvergure/'
   }
 ];
